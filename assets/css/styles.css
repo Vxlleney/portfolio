@@ -780,7 +780,7 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
   width: 20%;
   background-color: #ffe51f;
 }
-body .sct-project {
+body .sct-page {
   width: 1400px;
   padding: 60px 30px;
   margin: 0 auto;
@@ -788,15 +788,15 @@ body .sct-project {
   flex-direction: column;
   gap: 100px;
 }
-body .sct-project.project-page {
+body .sct-page.padding-page {
   padding: 150px 30px 150px 30px;
 }
 @media screen and (max-width: 1400px) {
-  body .sct-project {
+  body .sct-page {
     width: auto;
   }
 }
-body .sct-project .title-sct-project {
+body .sct-page .title-sct-page {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -805,19 +805,19 @@ body .sct-project .title-sct-project {
   padding-bottom: 30px;
   border-bottom: 1px solid #d6d6d6;
 }
-body .sct-project .title-sct-project h1 {
+body .sct-page .title-sct-page h1 {
   font-size: 2rem;
   font-weight: 700;
   color: #414141;
 }
-body .sct-project .title-sct-project span {
+body .sct-page .title-sct-page span {
   font-size: 1rem;
   font-weight: 700;
   color: #415e97;
   margin-bottom: -5px;
   text-transform: uppercase;
 }
-body .sct-project .container-project {
+body .sct-page .container-project {
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
@@ -826,7 +826,7 @@ body .sct-project .container-project {
   width: 100%;
   margin: 0 auto;
 }
-body .sct-project .container-project .card-project {
+body .sct-page .container-project .card-project {
   position: relative;
   width: 300px;
   height: 350px;
@@ -840,43 +840,43 @@ body .sct-project .container-project .card-project {
   /* Bordures spécifiques */
   /* Bordure en haut à droite */
 }
-body .sct-project .container-project .card-project:nth-child(1) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(1) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(1) .icon {
+body .sct-page .container-project .card-project:nth-child(1) .line-top-right,
+body .sct-page .container-project .card-project:nth-child(1) .line-bottom-left,
+body .sct-page .container-project .card-project:nth-child(1) .icon {
   border-color: #875fed;
   background-color: #875fed;
 }
-body .sct-project .container-project .card-project:nth-child(1) a {
+body .sct-page .container-project .card-project:nth-child(1) a {
   color: #875fed;
 }
-body .sct-project .container-project .card-project:nth-child(2) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(2) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(2) .icon {
+body .sct-page .container-project .card-project:nth-child(2) .line-top-right,
+body .sct-page .container-project .card-project:nth-child(2) .line-bottom-left,
+body .sct-page .container-project .card-project:nth-child(2) .icon {
   border-color: #ed5fb9;
   background-color: #ed5fb9;
 }
-body .sct-project .container-project .card-project:nth-child(2) a {
+body .sct-page .container-project .card-project:nth-child(2) a {
   color: #ed5fb9;
 }
-body .sct-project .container-project .card-project:nth-child(3) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(3) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(3) .icon {
+body .sct-page .container-project .card-project:nth-child(3) .line-top-right,
+body .sct-page .container-project .card-project:nth-child(3) .line-bottom-left,
+body .sct-page .container-project .card-project:nth-child(3) .icon {
   border-color: #37be44;
   background-color: #37be44;
 }
-body .sct-project .container-project .card-project:nth-child(3) a {
+body .sct-page .container-project .card-project:nth-child(3) a {
   color: #37be44;
 }
-body .sct-project .container-project .card-project:nth-child(4) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(4) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(4) .icon {
+body .sct-page .container-project .card-project:nth-child(4) .line-top-right,
+body .sct-page .container-project .card-project:nth-child(4) .line-bottom-left,
+body .sct-page .container-project .card-project:nth-child(4) .icon {
   border-color: #ffb52d;
   background-color: #ffb52d;
 }
-body .sct-project .container-project .card-project:nth-child(4) a {
+body .sct-page .container-project .card-project:nth-child(4) a {
   color: #ffb52d;
 }
-body .sct-project .container-project .card-project .line-top-right {
+body .sct-page .container-project .card-project .line-top-right {
   position: absolute;
   background-color: transparent !important;
   top: -4px;
@@ -887,7 +887,7 @@ body .sct-project .container-project .card-project .line-top-right {
   border-right: 4px solid #415e97;
   border-radius: 0 20px 0 0;
 }
-body .sct-project .container-project .card-project .line-bottom-left {
+body .sct-page .container-project .card-project .line-bottom-left {
   position: absolute;
   background-color: transparent !important;
   bottom: -4px;
@@ -898,7 +898,7 @@ body .sct-project .container-project .card-project .line-bottom-left {
   border-left: 4px solid #415e97;
   border-radius: 0 0 0 20px;
 }
-body .sct-project .container-project .card-project .icon {
+body .sct-page .container-project .card-project .icon {
   width: 60px;
   height: 60px;
   border-radius: 12px;
@@ -909,18 +909,18 @@ body .sct-project .container-project .card-project .icon {
   align-items: center;
   font-size: 1.5rem;
 }
-body .sct-project .container-project .card-project h2 {
+body .sct-page .container-project .card-project h2 {
   font-size: 1.5rem;
   font-weight: 700;
   color: #414141;
 }
-body .sct-project .container-project .card-project p {
+body .sct-page .container-project .card-project p {
   font-size: 1rem;
   font-weight: 500;
   color: #606060;
   margin-top: -30px;
 }
-body .sct-project .container-project .card-project .btn-card-project {
+body .sct-page .container-project .card-project .btn-card-project {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -928,16 +928,16 @@ body .sct-project .container-project .card-project .btn-card-project {
   transition: 0.3s ease;
   cursor: pointer;
 }
-body .sct-project .container-project .card-project .btn-card-project:hover {
+body .sct-page .container-project .card-project .btn-card-project:hover {
   transition: 0.3s ease;
   text-decoration: underline;
 }
-body .sct-project .container-project .card-project .btn-card-project span {
+body .sct-page .container-project .card-project .btn-card-project span {
   font-size: 0.9rem;
   margin: auto 0;
   font-weight: 600;
 }
-body .sct-project .container-project .card-project .btn-card-project i {
+body .sct-page .container-project .card-project .btn-card-project i {
   font-size: 1.5rem;
   margin: auto 0;
 }

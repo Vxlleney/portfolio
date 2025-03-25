@@ -927,7 +927,10 @@ body {
         }
     }
 
-    .sct-project {
+    // PROJET & ABOUT 
+    // Même paramètres de sections mais container différents
+
+    .sct-page {
         width: 1400px;
         padding: 60px 30px;
         margin: 0 auto;
@@ -935,7 +938,7 @@ body {
         flex-direction: column;
         gap: 100px;
 
-        &.project-page{
+        &.padding-page{
             padding: 150px 30px 150px 30px;
         }
 
@@ -943,7 +946,7 @@ body {
             width: auto;
         }
 
-        .title-sct-project {
+        .title-sct-page {
             width: 80%;
             display: flex;
             flex-direction: column;
@@ -967,6 +970,7 @@ body {
             }
         }
 
+        // CONTAINER DE LA PAGE PROJET
         .container-project {
             display: flex;
             gap: 40px;
@@ -1122,6 +1126,25 @@ body {
 
                 /* Bordure en haut à droite */
 
+            }
+        }
+
+        // CONTAINER DE LA PAGE A PROPOS
+        .container-aboutme{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+
+            .img-aboutme{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+                height: auto;
+                border-radius: 50%;
+                padding: 10px;
+                border: 4px solid $color-1;
             }
         }
     }
