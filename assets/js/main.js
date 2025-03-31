@@ -40,4 +40,5 @@ function applyTheme() {
 
 function toggleTheme() {
     switchTheme()
+    console.log("test");
 }
