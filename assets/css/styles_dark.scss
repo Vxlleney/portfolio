@@ -77,6 +77,12 @@ img {
     height: auto;
 }
 
+button{
+    border: none;
+    font-weight: $w-font-5;
+    font-family: $body-font;
+}
+
 // SCROLLBAR
 ::-webkit-scrollbar {
     width: 13px;
@@ -938,7 +944,7 @@ body {
         flex-direction: column;
         gap: 100px;
 
-        &.project-page{
+        &.padding-page{
             padding: 150px 30px 150px 30px;
         }
 
@@ -1129,6 +1135,155 @@ body {
         }
     }
 
+    // A PROPOS DE MOI
+    .sct-aboutme{
+        width: 1400px;
+        padding: 60px 30px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        @media screen and (max-width: 1400px) {
+            width: auto;
+        }
+
+        &.padding-page{
+            padding: 150px 30px 150px 30px;
+        }
+
+        .title-sct-aboutme{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 1px solid $color-line;
+
+            h1 {
+                font-size: 2rem;
+                font-weight: $w-font-6;
+                color: $color-text-n;
+            }
+
+            span {
+                font-size: 1rem;
+                font-weight: $w-font-6;
+                color: $color-1;
+                margin-bottom: -5px;
+                text-transform: uppercase;
+            }
+        }
+
+        .container-aboutme{
+            display: flex;
+            gap: 40px;
+           // flex-wrap: wrap; 
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+
+            .infos-aboutme{
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+                background-color: $color-card;
+                border-radius: 10px;
+                padding: 30px;
+                box-shadow: $shadow;
+
+                .content-infos-aboutme{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    
+                    li{
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: .850rem;
+                        font-weight: $w-font-6;
+
+                        span{
+                            font-weight: $w-font-4;
+                            margin: 0;
+                            padding: 0;
+                            text-transform: initial;
+                            color: $color-text-n;
+                        }
+                    }
+
+                    .view-cv{
+                        cursor: pointer;
+
+                        i{
+                            font-size: 1.2rem;
+                        }
+
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 auto;
+                        gap: 10px;
+                        padding: 10px 15px;
+                        border-radius: 10px;
+                        background-color: $color-1;
+                        color: $color-text-icon;
+                        transition: .3s ease;
+                        box-shadow: $shadow;
+
+                        &:hover{
+                            transition: .3s ease;
+                            filter: brightness(90%);
+                        }
+                    }
+                }
+                
+                .img-aboutme{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    padding: 4px;
+                    overflow: hidden;
+                    border: 3px solid $color-1;
+
+                    img{
+                        width: 100%;
+                        height: auto;
+                        border-radius: 50%;
+                        
+                    }
+                }
+
+                h2{
+                    font-size: 1.2rem;
+                    font-weight: $w-font-6;
+                    color: $color-text-n;
+                    text-align: center;
+                }
+
+                span{
+                    font-size: .850rem;
+                    font-weight: $w-font-6;
+                    color: $color-1;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-top: -10px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .biography{
+                width: 100%;
+            }
+        }
+
+    }
 
     .bg-login {
         background: url('/assets/img/bg-login.png');

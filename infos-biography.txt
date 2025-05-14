@@ -1,0 +1,29 @@
+🧑‍💼 Qui suis-je ?
+Je m'appelle [Ton Prénom Nom], passionné par le développement web et les nouvelles technologies. Curieux et créatif, j’aime concevoir des projets innovants et apprendre en continu.
+
+🎓 Mon parcours
+Après avoir obtenu un Bac général, avec les spécialités SVT et NSI (Numérique et Sciences Informatiques), j’ai décidé de poursuivre dans le domaine de l’informatique.
+Je suis actuellement étudiant à PROMÉO en BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers).
+Cette formation me permet de me spécialiser dans le développement d'applications et la programmation sur mesure, adaptées aux besoins des entreprises.
+
+🧪 Mon expérience professionnelle
+Je travaille en alternance dans une entreprise spécialisée dans l’EDI (Échange de Données Informatisé).
+Mon rôle consiste à développer et maintenir les programmes qui permettent l’automatisation et la sécurisation des échanges de données entre partenaires commerciaux.
+Cela me permet de combiner rigueur technique, travail en équipe et sens de l’organisation dans un environnement professionnel exigeant.
+
+❤️ Ce que j’aime
+Je suis particulièrement attiré par :
+
+Le développement web
+
+La création d'applications
+
+Le webdesign
+
+La conception et gestion de projets informatiques
+
+J’aime structurer des idées, résoudre des problèmes et créer des solutions utiles grâce au code.
+
+🚀 Mes objectifs
+À court terme, je souhaite valider mon BTS SIO SLAM et renforcer mes compétences en développement et en architecture de projets informatiques.
+À long terme, je vise un poste de développeur full-stack ou de chef de projet technique, avec l’envie de participer à des projets ambitieux et innovants.
