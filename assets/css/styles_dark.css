@@ -164,8 +164,8 @@ body .nav-menu ul li .line-top-right-nav {
 }
 body .nav-menu ul li .line-top-right-nav.active {
   display: initial;
-  border-top: 4px solid #37be44;
-  border-right: 4px solid #37be44;
+  border-top: 4px solid #57e465;
+  border-right: 4px solid #57e465;
 }
 body .nav-menu ul li .line-bottom-left-nav {
   position: absolute;
@@ -182,8 +182,8 @@ body .nav-menu ul li .line-bottom-left-nav {
 }
 body .nav-menu ul li .line-bottom-left-nav.active {
   display: initial;
-  border-bottom: 4px solid #37be44;
-  border-left: 4px solid #37be44;
+  border-bottom: 4px solid #57e465;
+  border-left: 4px solid #57e465;
 }
 body .nav-menu .theme-toggle-nav {
   margin: 0 auto;
@@ -772,7 +772,7 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.mysql {
   width: 80%;
-  background-color: #37be44;
+  background-color: #57e465;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.psd {
   width: 80%;
@@ -867,11 +867,11 @@ body .sct-project .container-project .card-project:nth-child(2) a {
 body .sct-project .container-project .card-project:nth-child(3) .line-top-right,
 body .sct-project .container-project .card-project:nth-child(3) .line-bottom-left,
 body .sct-project .container-project .card-project:nth-child(3) .icon {
-  border-color: #37be44;
-  background-color: #37be44;
+  border-color: #57e465;
+  background-color: #57e465;
 }
 body .sct-project .container-project .card-project:nth-child(3) a {
-  color: #37be44;
+  color: #57e465;
 }
 body .sct-project .container-project .card-project:nth-child(4) .line-top-right,
 body .sct-project .container-project .card-project:nth-child(4) .line-bottom-left,
@@ -988,40 +988,57 @@ body .sct-aboutme .container-aboutme {
   display: flex;
   gap: 40px;
   justify-content: space-between;
-  align-items: center;
   width: 80%;
   margin: 0 auto;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme {
+body .sct-aboutme .container-aboutme .content-left-aboutme {
   width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme {
+  width: 100%;
+  height: -moz-min-content;
+  height: min-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
   background-color: #161927;
   border-radius: 10px;
-  padding: 30px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px 25px;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .content-infos-aboutme {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .content-infos-aboutme li {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme ul li {
   display: flex;
   justify-content: space-between;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 700;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .content-infos-aboutme li span {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme ul li span {
   font-weight: 500;
   margin: 0;
   padding: 0;
   text-transform: initial;
   color: #ffffff;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .content-infos-aboutme .view-cv {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme ul li span i {
+  color: #57e465;
+  font-size: 1rem;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv {
   cursor: pointer;
   width: 100%;
   display: flex;
@@ -1034,16 +1051,16 @@ body .sct-aboutme .container-aboutme .infos-aboutme .content-infos-aboutme .view
   background-color: #415e97;
   color: #ffffff;
   transition: 0.3s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px #415e97;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .content-infos-aboutme .view-cv i {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv i {
   font-size: 1.2rem;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .content-infos-aboutme .view-cv:hover {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv:hover {
   transition: 0.3s ease;
   filter: brightness(90%);
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .img-aboutme {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .img-aboutme {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -1052,28 +1069,140 @@ body .sct-aboutme .container-aboutme .infos-aboutme .img-aboutme {
   overflow: hidden;
   border: 3px solid #415e97;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme .img-aboutme img {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .img-aboutme img {
   width: 100%;
   height: auto;
   border-radius: 50%;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme h2 {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme h2 {
   font-size: 1.2rem;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
 }
-body .sct-aboutme .container-aboutme .infos-aboutme span {
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme span {
   font-size: 0.85rem;
   font-weight: 700;
   color: #415e97;
   text-transform: uppercase;
   text-align: center;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: -20px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme {
+  width: 100%;
+  height: -moz-min-content;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #161927;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme i {
+  font-size: 1.5rem;
+  color: #415e97;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme .left-content-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme .left-content-card h5 {
+  font-size: 0.95rem;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown {
+  width: 100%;
+  height: -moz-min-content;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #161927;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown i {
+  font-size: 1.5rem;
+  color: #415e97;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown {
+  display: flex;
+  justify-content: space-between;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown .left-content-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown .left-content-card h5 {
+  font-size: 0.95rem;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown .btn-view-dropdown {
+  cursor: pointer;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .line-dropdown {
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #1b1f31;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown h5 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown h5 i {
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown .years {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #a4a4a4;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown .mention {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #6682ba;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown.active {
+  display: flex;
 }
 body .sct-aboutme .container-aboutme .biography {
   width: 100%;
+}
+body .sct-aboutme .container-aboutme .biography h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #6682ba;
+  padding: 10px 0;
+}
+body .sct-aboutme .container-aboutme .biography .line {
+  width: 100%;
+  height: 1px;
+  border-radius: 10px;
+  background-color: #171a29;
+  margin: 0 auto;
+}
+body .sct-aboutme .container-aboutme .biography p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 0 20px 0;
+  text-align: justify;
+}
+body .sct-aboutme .container-aboutme .biography p i {
+  font-size: 1.2rem;
+  color: #415e97;
+  padding: 0 5px;
 }
 body .bg-login {
   background: url("/assets/img/bg-login.png");

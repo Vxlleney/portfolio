@@ -1,5 +1,5 @@
 🧑‍💼 Qui suis-je ?
-Je m'appelle [Ton Prénom Nom], passionné par le développement web et les nouvelles technologies. Curieux et créatif, j’aime concevoir des projets innovants et apprendre en continu.
+Je m'appelle [Ton Prénom Nom], passionné par le développement informatique (notamment le web) et les nouvelles technologies. Curieux et créatif, j’aime concevoir des projets innovants et apprendre en continu.
 
 🎓 Mon parcours
 Après avoir obtenu un Bac général, avec les spécialités SVT et NSI (Numérique et Sciences Informatiques), j’ai décidé de poursuivre dans le domaine de l’informatique.

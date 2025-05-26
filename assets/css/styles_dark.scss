@@ -29,8 +29,10 @@ $color-btn-menu-back: #ebebeb;
 
 $color-card: #161927;
 $color-line: #10121d;
+$color-line-2: #171a29;
+$color-line-3: #1b1f31;
 
-$color-green: #37be44;
+$color-green: #57e465;
 $color-red: #e52c2c;
 $color-orange: #ffb52d;
 $color-pink: #ed5fb9;
@@ -39,6 +41,7 @@ $color-purple: #875fed;
 $color-blue: #5f85ed;
 
 $shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+$shadow-btn: 0px 0px 10px $color-1;
 // POLICES
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
 $body-font: 'Nunito', sans-serif;
@@ -1181,105 +1184,266 @@ body {
             gap: 40px;
            // flex-wrap: wrap; 
             justify-content: space-between;
-            align-items: center;
+        //    align-items: center;
             width: 80%;
             margin: 0 auto;
 
-            .infos-aboutme{
+            .content-left-aboutme{
                 width: 30%;
+                height: auto;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
                 gap: 10px;
-                background-color: $color-card;
-                border-radius: 10px;
-                padding: 30px;
-                box-shadow: $shadow;
 
-                .content-infos-aboutme{
+                .card-aboutme{
+                    width: 100%;
+                    height: min-content;
                     display: flex;
                     flex-direction: column;
-                    gap: 20px;
-                    
-                    li{
+                    justify-content: center;
+                    gap: 10px;
+                    background-color: $color-card;
+                    border-radius: 10px;
+                    box-shadow: $shadow;
+                    padding: 30px 25px;
+    
+                    .content-infos-aboutme{
                         display: flex;
-                        justify-content: space-between;
-                        font-size: .850rem;
-                        font-weight: $w-font-6;
-
-                        span{
-                            font-weight: $w-font-4;
-                            margin: 0;
-                            padding: 0;
-                            text-transform: initial;
-                            color: $color-text-n;
+                        flex-direction: column;
+                        gap: 20px;
+                        
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+    
+                            li{
+                                display: flex;
+                                justify-content: space-between;
+                                font-size: .950rem;
+                                font-weight: $w-font-6;
+    
+                                span{
+                                    font-weight: $w-font-4;
+                                    margin: 0;
+                                    padding: 0;
+                                    text-transform: initial;
+                                    color: $color-text-n;
+    
+                                    i{
+                                        color: $color-green;
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
                         }
+    
+                        .view-cv{
+                            cursor: pointer;
+    
+                            i{
+                                font-size: 1.2rem;
+                            }
+    
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0 auto;
+                            gap: 10px;
+                            padding: 10px 15px;
+                            border-radius: 10px;
+                            background-color: $color-1;
+                            color: $color-text-icon;
+                            transition: .3s ease;
+                            box-shadow: $shadow-btn;
+    
+                            &:hover{
+                                transition: .3s ease;
+                                filter: brightness(90%);
+                            }
+                        }
+
+                        .img-aboutme{
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
+                            margin: 0 auto;
+                            padding: 4px;
+                            overflow: hidden;
+                            border: 3px solid $color-1;
+        
+                            img{
+                                width: 100%;
+                                height: auto;
+                                border-radius: 50%;
+                                
+                            }
+                        }
+        
+                        h2{
+                            font-size: 1.2rem;
+                            font-weight: $w-font-6;
+                            color: $color-text-n;
+                            text-align: center;
+                        }
+        
+                        span{
+                            font-size: .850rem;
+                            font-weight: $w-font-6;
+                            color: $color-1;
+                            text-transform: uppercase;
+                            text-align: center;
+                            margin-top: -20px;
+                        }
+                    }  
+                }
+
+                .button-aboutme{
+                    width: 100%;
+                    height: min-content;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+                    background-color: $color-card;
+                    border-radius: 10px;
+                    box-shadow: $shadow;
+                    padding: 15px 20px;
+
+                    i{
+                        font-size: 1.5rem;
+                        color: $color-1;
                     }
 
-                    .view-cv{
-                        cursor: pointer;
-
-                        i{
-                            font-size: 1.2rem;
-                        }
-
-                        width: 100%;
+                    .left-content-card{
                         display: flex;
                         align-items: center;
-                        justify-content: center;
-                        margin: 0 auto;
-                        gap: 10px;
-                        padding: 10px 15px;
-                        border-radius: 10px;
-                        background-color: $color-1;
-                        color: $color-text-icon;
-                        transition: .3s ease;
-                        box-shadow: $shadow;
+                        gap: 15px;
 
-                        &:hover{
-                            transition: .3s ease;
-                            filter: brightness(90%);
+                        h5{
+                            font-size: .950rem;
                         }
                     }
-                }
-                
-                .img-aboutme{
-                    width: 100px;
-                    height: 100px;
-                    border-radius: 50%;
-                    margin: 0 auto;
-                    padding: 4px;
-                    overflow: hidden;
-                    border: 3px solid $color-1;
 
-                    img{
-                        width: 100%;
-                        height: auto;
-                        border-radius: 50%;
-                        
+                    &.active{
+
                     }
                 }
 
-                h2{
-                    font-size: 1.2rem;
-                    font-weight: $w-font-6;
-                    color: $color-text-n;
-                    text-align: center;
+                .button-dropdown{
+                    width: 100%;
+                    height: min-content;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    background-color: $color-card;
+                    border-radius: 10px;
+                    box-shadow: $shadow;
+                    padding: 15px 20px;
+
+                    i{
+                        font-size: 1.5rem;
+                        color: $color-1;
+                    }
+
+                    .top-dropdown{
+                        display: flex;
+                        justify-content: space-between;
+
+                        .left-content-card{
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+    
+                            h5{
+                                font-size: .950rem;
+                            }
+                        }
+
+                        .btn-view-dropdown{
+                            cursor: pointer;
+                        }
+                    }
+
+                    .content-dropdown{
+                        display: none;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .line-dropdown{
+                            width: 90%;
+                            height: 1px;
+                            margin: 0 auto;
+                            background-color: $color-line-3;
+                        }
+
+                        .item-dropdown{
+
+
+                            h5{
+                                font-size: .950rem;
+                                font-weight: $w-font-6;
+                                color: $color-text-n;
+
+                                i{
+                                    font-size: .950rem;
+                                    color: $color-text-n;
+                                }
+                            }
+                            
+                            .years{
+                                font-size: .850rem;
+                                font-weight: $w-font-6;
+                                color: $color-text-g;
+                            }
+
+                            .mention{
+                                font-size: .850rem;
+                                font-weight: $w-font-4;
+                                color: $color-2;
+                            }
+                        }
+
+                        &.active{
+                            display: flex;
+                        }
+                    }
+                
                 }
 
-                span{
-                    font-size: .850rem;
-                    font-weight: $w-font-6;
-                    color: $color-1;
-                    text-transform: uppercase;
-                    text-align: center;
-                    margin-top: -10px;
-                    margin-bottom: 10px;
-                }
             }
 
             .biography{
                 width: 100%;
+
+                h3{
+                    font-size: 1.2rem;
+                    font-weight: $w-font-6;
+                    color: $color-2;
+                    padding: 10px 0;
+                }
+
+                .line{
+                    width: 100%;
+                    height: 1px;
+                    border-radius: 10px;
+                    background-color: $color-line-2 ;
+                    margin: 0 auto;
+                }
+
+                p{
+                    font-size: 1rem;
+                    font-weight: $w-font-4;
+                    color: $color-text-n;
+                    padding: 10px 0 20px 0;
+                    text-align: justify;
+
+                    i{
+                        font-size: 1.2rem;
+                        color: $color-1;
+                        padding: 0 5px;
+                    }
+                }
             }
         }
 

@@ -42,3 +42,39 @@ function toggleTheme() {
     switchTheme()
     console.log("test");
 }
+
+// =================== PAGE A PROPOS ==================== //
+const boutons = document.querySelectorAll('.btn-view-dropdown');
+
+boutons.forEach(bouton => {
+    bouton.addEventListener('click', () => {
+        const container = bouton.closest('.button-dropdown');
+        const menu = container.querySelector('.content-dropdown');
+        
+        // Fermer tous les autres menus et remettre toutes les icônes à angle-down
+        document.querySelectorAll('.content-dropdown').forEach(otherMenu => {
+            if (otherMenu !== menu) {
+                otherMenu.classList.remove('active');
+            }
+        });
+        boutons.forEach(otherBtn => {
+            if (otherBtn !== bouton) {
+                otherBtn.classList.remove('uil-angle-up');
+                otherBtn.classList.add('uil-angle-down');
+            }
+        });
+
+        // Toggle le menu du bouton cliqué
+        menu.classList.toggle('active');
+
+        // Change l'icône du bouton cliqué selon l'état du menu
+        if (menu.classList.contains('active')) {
+            bouton.classList.remove('uil-angle-down');
+            bouton.classList.add('uil-angle-up');
+        } else {
+            bouton.classList.remove('uil-angle-up');
+            bouton.classList.add('uil-angle-down');
+        }
+    });
+});
+
