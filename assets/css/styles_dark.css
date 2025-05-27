@@ -957,7 +957,7 @@ body .sct-aboutme {
 }
 @media screen and (max-width: 1400px) {
   body .sct-aboutme {
-    width: auto;
+    width: 100%;
   }
 }
 body .sct-aboutme.padding-page {
@@ -991,12 +991,33 @@ body .sct-aboutme .container-aboutme {
   width: 80%;
   margin: 0 auto;
 }
+@media screen and (max-width: 1050px) {
+  body .sct-aboutme .container-aboutme {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 870px) {
+  body .sct-aboutme .container-aboutme {
+    flex-direction: column;
+  }
+}
 body .sct-aboutme .container-aboutme .content-left-aboutme {
   width: 30%;
   height: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+@media screen and (max-width: 1200px) {
+  body .sct-aboutme .container-aboutme .content-left-aboutme {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 870px) {
+  body .sct-aboutme .container-aboutme .content-left-aboutme {
+    justify-content: center;
+    width: auto;
+  }
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme {
   width: 100%;
@@ -1010,6 +1031,16 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 30px 25px;
+}
+@media screen and (max-width: 1200px) {
+  body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 870px) {
+  body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme {
+    width: auto;
+  }
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme {
   display: flex;
@@ -1088,7 +1119,12 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .conten
   text-align: center;
   margin-top: -20px;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-aboutme {
   width: 100%;
   height: -moz-min-content;
   height: min-content;
@@ -1100,19 +1136,19 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 15px 20px;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme i {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-aboutme i {
   font-size: 1.5rem;
   color: #415e97;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme .left-content-card {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-aboutme .left-content-card {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-aboutme .left-content-card h5 {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-aboutme .left-content-card h5 {
   font-size: 0.95rem;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown {
   width: 100%;
   height: -moz-min-content;
   height: min-content;
@@ -1124,60 +1160,70 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 15px 20px;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown i {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown i {
   font-size: 1.5rem;
   color: #415e97;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .top-dropdown {
   display: flex;
   justify-content: space-between;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown .left-content-card {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .top-dropdown .left-content-card {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown .left-content-card h5 {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .top-dropdown .left-content-card h5 {
   font-size: 0.95rem;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .top-dropdown .btn-view-dropdown {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .top-dropdown .btn-view-dropdown {
   cursor: pointer;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown {
   display: none;
   flex-direction: column;
   gap: 10px;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .line-dropdown {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .line-dropdown {
   width: 90%;
   height: 1px;
   margin: 0 auto;
   background-color: #1b1f31;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown h5 {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown h5 {
   font-size: 0.95rem;
   font-weight: 700;
   color: #ffffff;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown h5 i {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown h5 i {
   font-size: 0.95rem;
   color: #ffffff;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown .years {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown .years {
   font-size: 0.85rem;
   font-weight: 700;
   color: #a4a4a4;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown .item-dropdown .mention {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown .mention {
   font-size: 0.85rem;
   font-weight: 500;
   color: #6682ba;
 }
-body .sct-aboutme .container-aboutme .content-left-aboutme .button-dropdown .content-dropdown.active {
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown.active {
   display: flex;
 }
 body .sct-aboutme .container-aboutme .biography {
   width: 100%;
+}
+@media screen and (max-width: 1346px) {
+  body .sct-aboutme .container-aboutme .biography {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body .sct-aboutme .container-aboutme .biography {
+    width: 100%;
+  }
 }
 body .sct-aboutme .container-aboutme .biography h3 {
   font-size: 1.2rem;

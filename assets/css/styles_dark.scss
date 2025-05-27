@@ -1148,7 +1148,7 @@ body {
         gap: 60px;
 
         @media screen and (max-width: 1400px) {
-            width: auto;
+            width: 100%;
         }
 
         &.padding-page{
@@ -1188,12 +1188,30 @@ body {
             width: 80%;
             margin: 0 auto;
 
+            @media screen and (max-width: 1050px) {
+                width: 100%;
+            }
+
+            @media screen and (max-width: 870px) {
+                flex-direction: column;
+            }
+
             .content-left-aboutme{
                 width: 30%;
                 height: auto;
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+
+                @media screen and (max-width: 1200px) {
+                    width: 40%;
+                }
+
+                @media screen and (max-width: 870px) {
+                    //flex-direction: row;
+                    justify-content: center;
+                    width: auto;
+                }
 
                 .card-aboutme{
                     width: 100%;
@@ -1206,6 +1224,15 @@ body {
                     border-radius: 10px;
                     box-shadow: $shadow;
                     padding: 30px 25px;
+
+                    @media screen and (max-width: 1200px) {
+                        width: 300px;
+                        
+                    }
+
+                    @media screen and (max-width: 870px) {
+                        width: auto;
+                    }
     
                     .content-infos-aboutme{
                         display: flex;
@@ -1299,57 +1326,28 @@ body {
                     }  
                 }
 
-                .button-aboutme{
-                    width: 100%;
-                    height: min-content;
-                    display: flex;
-                    justify-content: space-between;
-                    gap: 10px;
-                    background-color: $color-card;
-                    border-radius: 10px;
-                    box-shadow: $shadow;
-                    padding: 15px 20px;
-
-                    i{
-                        font-size: 1.5rem;
-                        color: $color-1;
-                    }
-
-                    .left-content-card{
-                        display: flex;
-                        align-items: center;
-                        gap: 15px;
-
-                        h5{
-                            font-size: .950rem;
-                        }
-                    }
-
-                    &.active{
-
-                    }
-                }
-
-                .button-dropdown{
-                    width: 100%;
-                    height: min-content;
+                .container-buttons-aboutme{
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
-                    background-color: $color-card;
-                    border-radius: 10px;
-                    box-shadow: $shadow;
-                    padding: 15px 20px;
+                        
 
-                    i{
-                        font-size: 1.5rem;
-                        color: $color-1;
-                    }
-
-                    .top-dropdown{
+                    .button-aboutme{
+                        width: 100%;
+                        height: min-content;
                         display: flex;
                         justify-content: space-between;
-
+                        gap: 10px;
+                        background-color: $color-card;
+                        border-radius: 10px;
+                        box-shadow: $shadow;
+                        padding: 15px 20px;
+    
+                        i{
+                            font-size: 1.5rem;
+                            color: $color-1;
+                        }
+    
                         .left-content-card{
                             display: flex;
                             align-items: center;
@@ -1359,62 +1357,107 @@ body {
                                 font-size: .950rem;
                             }
                         }
-
-                        .btn-view-dropdown{
-                            cursor: pointer;
+    
+                        &.active{
+    
                         }
                     }
-
-                    .content-dropdown{
-                        display: none;
+    
+                    .button-dropdown{
+                        width: 100%;
+                        height: min-content;
+                        display: flex;
                         flex-direction: column;
                         gap: 10px;
-
-                        .line-dropdown{
-                            width: 90%;
-                            height: 1px;
-                            margin: 0 auto;
-                            background-color: $color-line-3;
+                        background-color: $color-card;
+                        border-radius: 10px;
+                        box-shadow: $shadow;
+                        padding: 15px 20px;
+    
+                        i{
+                            font-size: 1.5rem;
+                            color: $color-1;
                         }
-
-                        .item-dropdown{
-
-
-                            h5{
-                                font-size: .950rem;
-                                font-weight: $w-font-6;
-                                color: $color-text-n;
-
-                                i{
+    
+                        .top-dropdown{
+                            display: flex;
+                            justify-content: space-between;
+    
+                            .left-content-card{
+                                display: flex;
+                                align-items: center;
+                                gap: 15px;
+        
+                                h5{
                                     font-size: .950rem;
-                                    color: $color-text-n;
                                 }
                             }
-                            
-                            .years{
-                                font-size: .850rem;
-                                font-weight: $w-font-6;
-                                color: $color-text-g;
-                            }
-
-                            .mention{
-                                font-size: .850rem;
-                                font-weight: $w-font-4;
-                                color: $color-2;
+    
+                            .btn-view-dropdown{
+                                cursor: pointer;
                             }
                         }
-
-                        &.active{
-                            display: flex;
+    
+                        .content-dropdown{
+                            display: none;
+                            flex-direction: column;
+                            gap: 10px;
+    
+                            .line-dropdown{
+                                width: 90%;
+                                height: 1px;
+                                margin: 0 auto;
+                                background-color: $color-line-3;
+                            }
+    
+                            .item-dropdown{
+    
+    
+                                h5{
+                                    font-size: .950rem;
+                                    font-weight: $w-font-6;
+                                    color: $color-text-n;
+    
+                                    i{
+                                        font-size: .950rem;
+                                        color: $color-text-n;
+                                    }
+                                }
+                                
+                                .years{
+                                    font-size: .850rem;
+                                    font-weight: $w-font-6;
+                                    color: $color-text-g;
+                                }
+    
+                                .mention{
+                                    font-size: .850rem;
+                                    font-weight: $w-font-4;
+                                    color: $color-2;
+                                }
+                            }
+    
+                            &.active{
+                                display: flex;
+                            }
                         }
+                    
                     }
-                
                 }
 
             }
 
             .biography{
                 width: 100%;
+
+                @media screen and (max-width: 1346px) {
+                    width: 80%; 
+                }
+
+                @media screen and (max-width: 1200px) {
+                    width: 100%;
+                    
+                }
 
                 h3{
                     font-size: 1.2rem;
