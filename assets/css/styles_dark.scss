@@ -1,6 +1,6 @@
 // COLORS LIGHT
 $color-1: #415e97;
-$color-2: #6682ba;
+$color-2: #7894cd;
 $color-3: #dce8ff;
 $color-4: #ffae00;
 $color-5: #db5656;
@@ -219,20 +219,20 @@ body {
                 .line-top-right-nav{
                     position: absolute;
                     background-color: transparent !important;
-                    top: -4px;
-                    right: -4px;
+                    top: 0px;
+                    right: 0px;
                     width: 10%;
                     height: 50%;
                     border-top: 4px solid $color-1;
                     border-right: 4px solid $color-1;
-                    border-radius: 0 15px 0 0;
+                    border-radius: 0 10px 0 0;
                     display: none;
                     transition: .3s ease;
 
                     &.active{
                         display: initial;
-                        border-top: 4px solid $color-green;
-                        border-right: 4px solid $color-green;
+                        border-top: 4px solid $color-1;
+                        border-right: 4px solid $color-1;
                         
                     }
                 }
@@ -240,20 +240,20 @@ body {
                 .line-bottom-left-nav {
                     position: absolute;
                     background-color: transparent !important;
-                    bottom: -4px;
-                    left: -4px;
+                    bottom: 0px;
+                    left: 0px;
                     width: 10%;
                     height: 50%;
                     border-bottom: 4px solid $color-1;
                     border-left: 4px solid $color-1;
-                    border-radius: 0 0 0 15px;
+                    border-radius: 0 0 0 10px;
                     display: none;
                     transition: .3s ease;
 
                     &.active{
                         display: initial;
-                        border-bottom: 4px solid $color-green;
-                        border-left: 4px solid $color-green;
+                        border-bottom: 4px solid $color-1;
+                        border-left: 4px solid $color-1;
                     }
                 }
             }
@@ -533,9 +533,10 @@ body {
             }
 
             p {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 font-weight: $w-font-4;
                 color: $color-text-g;
+                margin-top: 10px;
             }
 
             .btn-header {
@@ -560,9 +561,11 @@ body {
                     justify-content: center;
                     padding: 12px 40px;
                     border-radius: 10px;
-                    border: 3px solid $color-1;
-                    font-size: 1rem;
+                    border: 2px solid $color-1;
+                    font-size: .950rem;
+                    font-weight: $w-font-4;
                     transition: .3s ease;
+                    box-shadow: $shadow;
 
                     @media screen and (max-width: 500px) {
                         margin-top: 0;
@@ -578,6 +581,7 @@ body {
                         background-color: $color-1;
                         color: $color-text-icon;
                         font-weight: $w-font-6;
+                        box-shadow: $shadow-btn;
 
                         &:hover {
                             filter: brightness(90%);
@@ -595,6 +599,7 @@ body {
                             filter: brightness(90%);
                             color: $color-text-icon;
                             transition: .3s ease;
+                            box-shadow: $shadow-btn;
                         }
                     }
                 }
@@ -1355,6 +1360,7 @@ body {
     
                             h5{
                                 font-size: .950rem;
+                                font-weight: $w-font-4;
                             }
                         }
     
@@ -1390,6 +1396,7 @@ body {
         
                                 h5{
                                     font-size: .950rem;
+                                    font-weight: $w-font-4;
                                 }
                             }
     
@@ -1415,7 +1422,7 @@ body {
     
                                 h5{
                                     font-size: .950rem;
-                                    font-weight: $w-font-6;
+                                    font-weight: $w-font-4;
                                     color: $color-text-n;
     
                                     i{
@@ -1426,7 +1433,7 @@ body {
                                 
                                 .years{
                                     font-size: .850rem;
-                                    font-weight: $w-font-6;
+                                    font-weight: $w-font-4;
                                     color: $color-text-g;
                                 }
     
