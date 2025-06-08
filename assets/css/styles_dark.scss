@@ -39,6 +39,8 @@ $color-pink: #ed5fb9;
 $color-yellow: #ffe51f;
 $color-purple: #875fed;
 $color-blue: #5f85ed;
+$color-brown: #624937;
+$color-darkgreen: #335d36;
 
 $shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 $shadow-btn: 0px 0px 10px $color-1;
@@ -882,6 +884,14 @@ body {
                             font-size: .9rem;
                             font-weight: $w-font-5;
                             color: $color-text-g;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            gap: 30px;
+
+                            .percent{
+                                font-size: .7rem;
+                            }                            
                         }
 
                         .bar-skills {
@@ -897,43 +907,53 @@ body {
                                 border-radius: 10px;
 
                                 &.html-css {
-                                    width: 90%; // Paramètre qui sera amené a être modifier en JS par le DASHBOARD
+                                    //width: 90%; // Paramètre qui sera amené a être modifier en JS par le DASHBOARD
                                     background-color: $color-orange;
                                 }
 
                                 &.javascript {
-                                    width: 60%;
+                                    //width: 60%;
                                     background-color: $color-yellow;
                                 }
 
                                 &.java {
-                                    width: 40%;
+                                    //width: 40%;
                                     background-color: $color-pink;
                                 }
 
-                                &.php {
-                                    width: 20%;
-                                    background-color: $color-purple;
+                                &.python {
+                                    //width: 20%;
+                                    background-color: $color-red;
                                 }
 
                                 &.mysql {
-                                    width: 80%;
+                                    //width: 80%;
                                     background-color: $color-green;
                                 }
 
                                 &.psd {
-                                    width: 80%;
+                                    //width: 80%;
                                     background-color: $color-blue;
                                 }
 
-                                &.python {
-                                    width: 80%;
-                                    background-color: $color-red;
+                                &.figma {
+                                    //width: 80%;
+                                    background-color: $color-purple;
                                 }
 
                                 &.nodejs{
-                                    width: 20%;
+                                    //width: 20%;
                                     background-color: $color-yellow;
+                                }
+
+                                &.react{
+                                    //width: 20%;
+                                    background-color: $color-brown;
+                                }
+
+                                &.github{
+                                    //width: 20%;
+                                    background-color: $color-darkgreen;
                                 }
                             }
                         }
@@ -1065,8 +1085,8 @@ body {
                 .line-top-right {
                     position: absolute;
                     background-color: transparent !important;
-                    top: -4px;
-                    right: -4px;
+                    top: -0px;
+                    right: -0px;
                     width: 40%;
                     height: 30%;
                     border-top: 4px solid $color-1;
@@ -1078,8 +1098,8 @@ body {
                 .line-bottom-left {
                     position: absolute;
                     background-color: transparent !important;
-                    bottom: -4px;
-                    left: -4px;
+                    bottom: -0px;
+                    left: -0px;
                     width: 40%;
                     height: 30%;
                     border-bottom: 4px solid $color-1;

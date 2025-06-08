@@ -1,0 +1,112 @@
+{
+    "identity": {
+      "lastname": "PETIT",
+      "firstname": "Valentin",
+      "tel": "0601020304",
+      "job": "Alternant BTS SIO",
+      "email": "petit.valentin60140@gmail.com",
+      "age": 20
+    },
+
+    "languages": [
+      {
+        "language": "Français",
+        "level": "Langue maternelle"
+      },
+      {
+        "language": "Anglais",
+        "level": "Niveau B1"
+      }
+    ],
+
+    "experiences": [
+      {
+        "company": "Global-Baby",
+        "seniority": "2024 - Aujourd'hui",
+        "job": "Développeur & Support informatique"
+      }
+    ],
+    
+    "skills": [
+      {
+        "label": "HTML SCSS",
+        "level": "Compétent",
+        "percent": 90,
+        "color": "html-css"
+      },
+      {
+        "label": "Javascript",
+        "level": "Novice",
+        "percent": 50,
+        "color": "javascript"
+      },
+      {
+        "label": "Node JS",
+        "level": "Débutant",
+        "percent": 20,
+        "color": "nodejs"
+      },
+      {
+        "label": "React",
+        "level": "En apprentissage",
+        "percent": 10,
+        "color": "react"
+      },
+      {
+        "label": "Java",
+        "level": "Intermédiaire",
+        "percent": 40,
+        "color": "java"
+      },
+      {
+        "label": "MySQL",
+        "level": "Compétent",
+        "percent": 70,
+        "color": "mysql"
+      },
+      {
+        "label": "Python",
+        "level": "Compétent",
+        "percent": 80,
+        "color": "python"
+      },
+      {
+        "label": "Photoshop",
+        "level": "Compétent",
+        "percent": 70,
+        "color": "psd"
+      },
+      {
+        "label": "Figma",
+        "level": "Intermédiaire",
+        "percent": 60,
+        "color": "figma"
+      },
+      {
+        "label": "Github",
+        "level": "Intermédiaire",
+        "percent": 60,
+        "color": "github"
+      }
+    ],
+
+    "degrees": [
+      {
+        "years": "2019",
+        "label": "Diplome National du Brevet",
+        "mention": "Mention bien"
+      },
+      {
+        "years": "2019 - 2022",
+        "label": "BAC Général spécialités NSI et SVT",
+        "mention": "Mention assez-bien"
+      },
+      {
+        "years": "2024 - Aujourd'hui",
+        "label": "BTS Services Informatiques aux Organisations SLAM",
+        "mention": "Diplomes en cours..."
+      }
+    ]
+}
+  
+   

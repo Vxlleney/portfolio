@@ -746,6 +746,13 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
   font-size: 0.9rem;
   font-weight: 600;
   color: #a4a4a4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills p .percent {
+  font-size: 0.7rem;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills {
   display: flex;
@@ -760,36 +767,34 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
   border-radius: 10px;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.html-css {
-  width: 90%;
   background-color: #ffb52d;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.javascript {
-  width: 60%;
   background-color: #ffe51f;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.java {
-  width: 40%;
   background-color: #ed5fb9;
 }
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.php {
-  width: 20%;
-  background-color: #875fed;
+body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.python {
+  background-color: #e52c2c;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.mysql {
-  width: 80%;
   background-color: #57e465;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.psd {
-  width: 80%;
   background-color: #5f85ed;
 }
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.python {
-  width: 80%;
-  background-color: #e52c2c;
+body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.figma {
+  background-color: #875fed;
 }
 body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.nodejs {
-  width: 20%;
   background-color: #ffe51f;
+}
+body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.react {
+  background-color: #624937;
+}
+body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.github {
+  background-color: #335d36;
 }
 body .sct-project {
   width: 1400px;
@@ -890,8 +895,8 @@ body .sct-project .container-project .card-project:nth-child(4) a {
 body .sct-project .container-project .card-project .line-top-right {
   position: absolute;
   background-color: transparent !important;
-  top: -4px;
-  right: -4px;
+  top: 0px;
+  right: 0px;
   width: 40%;
   height: 30%;
   border-top: 4px solid #415e97;
@@ -901,8 +906,8 @@ body .sct-project .container-project .card-project .line-top-right {
 body .sct-project .container-project .card-project .line-bottom-left {
   position: absolute;
   background-color: transparent !important;
-  bottom: -4px;
-  left: -4px;
+  bottom: 0px;
+  left: 0px;
   width: 40%;
   height: 30%;
   border-bottom: 4px solid #415e97;
