@@ -766,36 +766,6 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
   height: 100%;
   border-radius: 10px;
 }
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.html-css {
-  background-color: #ffb52d;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.javascript {
-  background-color: #ffe51f;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.java {
-  background-color: #ed5fb9;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.python {
-  background-color: #e52c2c;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.mysql {
-  background-color: #37be44;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.psd {
-  background-color: #5f85ed;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.figma {
-  background-color: #875fed;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.nodejs {
-  background-color: #ffe51f;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.react {
-  background-color: #624937;
-}
-body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills .bar-skills span.github {
-  background-color: #335d36;
-}
 body .sct-project {
   width: 1400px;
   padding: 60px 30px;
@@ -841,6 +811,15 @@ body .sct-project .container-project {
   align-items: center;
   width: 100%;
   margin: 0 auto;
+}
+body .sct-project .container-project h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #d4d4d4;
+  text-align: center;
+}
+body .sct-project .container-project h2.hide {
+  display: none;
 }
 body .sct-project .container-project .card-project {
   position: relative;
@@ -929,6 +908,7 @@ body .sct-project .container-project .card-project h2 {
   font-size: 1.5rem;
   font-weight: 700;
   color: #414141;
+  text-align: left;
 }
 body .sct-project .container-project .card-project p {
   font-size: 1rem;

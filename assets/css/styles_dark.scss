@@ -15,6 +15,7 @@ $gradient-footer: linear-gradient(to bottom, $color-bg-1, $color-bg-3);
 
 $color-text-b: #414141;
 $color-text-g: #a4a4a4;
+$color-text-none: #383f5d;
 $color-text-n: #ffffff;
 $color-text-icon: #ffffff;
 
@@ -39,8 +40,9 @@ $color-pink: #ed5fb9;
 $color-yellow: #ffe51f;
 $color-purple: #875fed;
 $color-blue: #5f85ed;
-$color-brown: #624937;
-$color-darkgreen: #335d36;
+$color-bluelight: #6a91ff;
+$color-brown: #87644a;
+$color-darkgreen: #297b2f;
 
 $shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 $shadow-btn: 0px 0px 10px $color-1;
@@ -905,56 +907,6 @@ body {
                             span {
                                 height: 100%;
                                 border-radius: 10px;
-
-                                &.html-css {
-                                    //width: 90%; // Paramètre qui sera amené a être modifier en JS par le DASHBOARD
-                                    background-color: $color-orange;
-                                }
-
-                                &.javascript {
-                                    //width: 60%;
-                                    background-color: $color-yellow;
-                                }
-
-                                &.java {
-                                    //width: 40%;
-                                    background-color: $color-pink;
-                                }
-
-                                &.python {
-                                    //width: 20%;
-                                    background-color: $color-red;
-                                }
-
-                                &.mysql {
-                                    //width: 80%;
-                                    background-color: $color-green;
-                                }
-
-                                &.psd {
-                                    //width: 80%;
-                                    background-color: $color-blue;
-                                }
-
-                                &.figma {
-                                    //width: 80%;
-                                    background-color: $color-purple;
-                                }
-
-                                &.nodejs{
-                                    //width: 20%;
-                                    background-color: $color-yellow;
-                                }
-
-                                &.react{
-                                    //width: 20%;
-                                    background-color: $color-brown;
-                                }
-
-                                &.github{
-                                    //width: 20%;
-                                    background-color: $color-darkgreen;
-                                }
                             }
                         }
 
@@ -1012,6 +964,17 @@ body {
             align-items: center;
             width: 100%;
             margin: 0 auto;
+
+            h2{
+                font-size: 2rem;
+                font-weight: $w-font-5;
+                color: $color-text-none;
+                text-align: center;
+
+                &.hide{
+                    display: none;
+                }
+            }
 
             .card-project {
                 position: relative;
@@ -1123,6 +1086,7 @@ body {
                     font-size: 1.5rem;
                     font-weight: $w-font-6;
                     color: $color-text-n;
+                    text-align: left;
                 }
 
                 p {
