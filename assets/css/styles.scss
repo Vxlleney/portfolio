@@ -511,6 +511,15 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 70%;
+        }
+
+        @media screen and (max-width: 800px) {
+            width: 80%;
+        }
+
+        @media screen and (max-width: 500px) {
+            width: 95%;
         }
 
         .title-header {
@@ -551,9 +560,6 @@ body {
                     justify-content: center;
                     width: 95%;
                     margin: 0 auto;
-                }
-                
-                @media screen and (max-width: 500px) {
                     flex-direction: column;
                     gap: 20px;
                 }
@@ -571,7 +577,7 @@ body {
                     transition: .3s ease;
                     box-shadow: $shadow;
 
-                    @media screen and (max-width: 500px) {
+                    @media screen and (max-width: 1024px) {
                         margin-top: 0;
                         padding: 15px 40px;
 
@@ -814,8 +820,12 @@ body {
                 }
 
                 @media screen and (max-width: 1024px) {
-                    width: 80%;
-                    
+                    width: 60%;
+                    padding: 0;
+                }
+
+                @media screen and (max-width: 650px) {
+                    width: 100%;
                 }
             }
 
@@ -871,6 +881,12 @@ body {
                         width: 45%;
                         height: auto;
                         background-color: $color-card;
+
+                        @media screen and (max-width: 520px) {
+                            min-width: 220px;
+                            width: 100%; 
+                            min-width: auto;
+                        }
 
                         @media screen and (max-width: 450px) {
                             width: 100%;  
@@ -964,7 +980,7 @@ body {
             align-items: center;
             width: 100%;
             margin: 0 auto;
-            
+
             h2{
                 font-size: 2rem;
                 font-weight: $w-font-5;
@@ -975,7 +991,6 @@ body {
                     display: none;
                 }
             }
-
 
             .card-project {
                 position: relative;
@@ -1399,7 +1414,8 @@ body {
                             }
     
                             .item-dropdown{
-    
+                                display: flex;
+                                flex-direction: column;
     
                                 h5{
                                     font-size: .950rem;
@@ -1422,6 +1438,19 @@ body {
                                     font-size: .850rem;
                                     font-weight: $w-font-4;
                                     color: $color-2;
+                                }
+
+                                &.img{
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 10px;
+                                    padding: 10px 0;
+                                    align-items: center;
+
+                                    img{
+                                        height: 100%;
+                                        width: auto;
+                                    }
                                 }
                             }
     

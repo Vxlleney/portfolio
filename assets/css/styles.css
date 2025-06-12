@@ -404,6 +404,17 @@ body header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  body header {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body header {
+    width: 95%;
   }
 }
 body header .title-header {
@@ -443,10 +454,6 @@ body header .title-header .btn-header {
     justify-content: center;
     width: 95%;
     margin: 0 auto;
-  }
-}
-@media screen and (max-width: 500px) {
-  body header .title-header .btn-header {
     flex-direction: column;
     gap: 20px;
   }
@@ -464,7 +471,7 @@ body header .title-header .btn-header .btn-header {
   transition: 0.3s ease;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
   body header .title-header .btn-header .btn-header {
     margin-top: 0;
     padding: 15px 40px;
@@ -679,7 +686,13 @@ body .sct-skills .container-sct-skills .img-skills img {
 }
 @media screen and (max-width: 1024px) {
   body .sct-skills .container-sct-skills .img-skills {
-    width: 80%;
+    width: 60%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .sct-skills .container-sct-skills .img-skills {
+    width: 100%;
   }
 }
 body .sct-skills .container-sct-skills .container-skills {
@@ -731,6 +744,13 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
   width: 45%;
   height: auto;
   background-color: #ffffff;
+}
+@media screen and (max-width: 520px) {
+  body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills {
+    min-width: 220px;
+    width: 100%;
+    min-width: auto;
+  }
 }
 @media screen and (max-width: 450px) {
   body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills {
@@ -1182,6 +1202,10 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-ab
   margin: 0 auto;
   background-color: #d6d6d6;
 }
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown {
+  display: flex;
+  flex-direction: column;
+}
 body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown h5 {
   font-size: 0.95rem;
   font-weight: 500;
@@ -1200,6 +1224,17 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-ab
   font-size: 0.85rem;
   font-weight: 500;
   color: #6682ba;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown.img {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 0;
+  align-items: center;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown.img img {
+  height: 100%;
+  width: auto;
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown.active {
   display: flex;

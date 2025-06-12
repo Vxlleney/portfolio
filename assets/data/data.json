@@ -2,10 +2,10 @@
   "identity": {
     "lastname": "PETIT",
     "firstname": "Valentin",
-    "countdegrees": "BAC+2",
+    "countdegrees": "BAC+2 en cours",
     "job": "Alternant BTS SIO SLAM",
     "email": "petit.valentin60140@gmail.com",
-    "age": 20,
+    "age": 21,
     "link-cv": "petitvalentin.fr",
     "car": true
   },
@@ -23,7 +23,7 @@
     {
       "company": "Global-Baby",
       "seniority": "2024 - Aujourd'hui",
-      "job": "Développeur & Support informatique"
+      "job": "Alternant Informatique EDI & Support SAP"
     }
   ],
   "skills": [
