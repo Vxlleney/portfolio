@@ -44,11 +44,11 @@ function toggleTheme() {
 }
 
 // =================== PAGE A PROPOS ==================== //
-const boutons = document.querySelectorAll('.btn-view-dropdown');
+const buttonsDropdown = document.querySelectorAll('.btn-view-dropdown');
 
-boutons.forEach(bouton => {
-    bouton.addEventListener('click', () => {
-        const container = bouton.closest('.button-dropdown');
+buttonsDropdown.forEach(button => {
+    button.addEventListener('click', () => {
+        const container = button.closest('.button-dropdown');
         const menu = container.querySelector('.content-dropdown');
         
         // Fermer tous les autres menus et remettre toutes les icônes à angle-down
@@ -57,8 +57,8 @@ boutons.forEach(bouton => {
                 otherMenu.classList.remove('active');
             }
         });
-        boutons.forEach(otherBtn => {
-            if (otherBtn !== bouton) {
+        buttonsDropdown.forEach(otherBtn => {
+            if (otherBtn !== button) {
                 otherBtn.classList.remove('uil-angle-up');
                 otherBtn.classList.add('uil-angle-down');
             }
@@ -68,13 +68,8 @@ boutons.forEach(bouton => {
         menu.classList.toggle('active');
 
         // Change l'icône du bouton cliqué selon l'état du menu
-        if (menu.classList.contains('active')) {
-            bouton.classList.remove('uil-angle-down');
-            bouton.classList.add('uil-angle-up');
-        } else {
-            bouton.classList.remove('uil-angle-up');
-            bouton.classList.add('uil-angle-down');
-        }
+        button.classList.toggle('uil-angle-down');
+        button.classList.toggle('uil-angle-up');
     });
 });
 
