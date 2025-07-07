@@ -1,0 +1,76 @@
+{
+    "skills": [
+        {
+            "label": "HTML SCSS",
+            "level": "Avancé",
+            "percent": 90,
+            "color": "#ffb52d"
+        },
+        {
+            "label": "Javascript",
+            "level": "Intermédiaire",
+            "percent": 50,
+            "color": "#ffe51f"
+        },
+        {
+            "label": "Node JS",
+            "level": "Débutant",
+            "percent": 40,
+            "color": "#87644a"
+        },
+        {
+            "label": "React",
+            "level": "En apprentissage",
+            "percent": 10,
+            "color": "#D2B48C"
+        },
+        {
+            "label": "Java",
+            "level": "Intermédiaire",
+            "percent": 50,
+            "color": "#FF69B4"
+        },
+        {
+            "label": "Kotlin",
+            "level": "Intermédiaire",
+            "percent": 50,
+            "color": "#DB7093"
+        },
+        {
+            "label": "MySQL",
+            "level": "Avancé",
+            "percent": 70,
+            "color": "#37be44"
+        },
+        {
+            "label": "Python",
+            "level": "Intermédiaire",
+            "percent": 60,
+            "color": "#e24444"
+        },
+        {
+            "label": "Photoshop",
+            "level": "Internédiaire",
+            "percent": 60,
+            "color": "#3b58a8"
+        },
+        {
+            "label": "Figma",
+            "level": "Avancé",
+            "percent": 60,
+            "color": "#6a91ff"
+        },
+        {
+            "label": "Github",
+            "level": "Intermédiaire",
+            "percent": 60,
+            "color": "#9370DB"
+        },
+        {
+            "label": "RTE - TradXPress",
+            "level": "Intermédiaire",
+            "percent": 60,
+            "color": "#ffa500"
+        }
+    ]
+}

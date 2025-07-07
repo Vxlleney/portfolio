@@ -31,6 +31,7 @@ button {
   border: none;
   font-weight: 600;
   font-family: "Nunito", sans-serif;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar {
@@ -610,6 +611,20 @@ body .sct-exp .container-sct-exp .container-exp .container-content-exp .content-
   font-weight: 500;
   color: #606060;
   margin-top: 5px;
+}
+body .sct-exp .container-sct-exp .container-exp .container-content-exp .content-exp-data .exp-data button {
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  color: #415e97;
+  font-weight: 600;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+body .sct-exp .container-sct-exp .container-exp .container-content-exp .content-exp-data .exp-data button i {
+  font-size: 1.2rem;
 }
 body .sct-exp .container-sct-exp .container-exp .container-content-exp .content-exp-data .line-data {
   display: block;

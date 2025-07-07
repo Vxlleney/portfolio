@@ -88,6 +88,7 @@ button{
     border: none;
     font-weight: $w-font-5;
     font-family: $body-font;
+    background-color: transparent;
 }
 
 // SCROLLBAR
@@ -731,6 +732,22 @@ body {
                                 font-weight: $w-font-4;
                                 color: $color-text-g;
                                 margin-top: 5px;
+                            }
+
+                            button{
+                                cursor: pointer;
+                                display: flex;
+                                text-align: center;
+                                color: $color-1;
+                                font-weight: $w-font-5;
+                                align-items: center;
+                                gap: 5px;
+                                font-size: .9rem;
+                                margin-top: 5px;
+
+                                i{
+                                    font-size: 1.2rem;
+                                }
                             }
 
                         }

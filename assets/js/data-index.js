@@ -1,4 +1,4 @@
-fetch('assets/data/data.json')
+fetch('assets/data/skills.json')
     .then(response => response.json())
     .then(data => {
 
@@ -20,24 +20,29 @@ fetch('assets/data/data.json')
                         </div>
                     </div>
                 `;
-                
+
             });
             skillsContainer.innerHTML = html;
         }
+    });
 
+
+fetch('assets/data/projects.json')
+    .then(response => response.json())
+    .then(data => {
 
         // ==================== PROJECTS ==================== //
         const projects = data.projects;
         const projectsContainer = document.getElementById('projects-section');
-        const noProject = document.getElementById('no-project'); 
+        const noProject = document.getElementById('no-project');
 
         if (!projects || projects.length === 0) {
             noProject.classList.toggle('hide');
-        } else { 
+        } else {
             let html = "";
 
             projects.forEach((project) => {
-                
+
                 if (project.favorite == true) {
                     html += `
                         <div class="card-project">

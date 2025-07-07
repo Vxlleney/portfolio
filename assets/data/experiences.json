@@ -1,0 +1,66 @@
+{
+    "experiences": [
+        {
+            "company": "Global-Baby",
+            "seniority": "2024 - Aujourd'hui",
+            "job": "Alternant Informatique EDI & Support SAP",
+            "missions": [
+                {
+                    "title": "Gestion des flux EDI",
+                    "tasks": [
+                        "Surveillance quotidienne des messages EDI entrants et sortants",
+                        "Résolution des erreurs de mapping EDI",
+                        "Communication avec les partenaires pour le suivi des flux"
+                    ]
+                },
+                {
+                    "title": "Support SAP utilisateurs",
+                    "tasks": [
+                        "Assistance aux utilisateurs SAP",
+                        "Création et mise à jour de documentations fonctionnelles",
+                        "Création des rôles et gestions des autorisations"
+                    ]
+                },
+                {
+                    "title": "Amélioration continue des processus",
+                    "tasks": [
+                        "Analyse des processus existants pour identifier les axes d'amélioration",
+                        "Développement de scripts pour automatiser certaines tâches récurrentes",
+                        "Participation aux réunions projets avec les équipes métier"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Global-Baby",
+            "seniority": "2024 - Aujourd'hui",
+            "job": "Alternant Informatique EDI & Support SAP",
+            "missions": [
+                {
+                    "title": "Gestion des flux EDI",
+                    "tasks": [
+                        "Surveillance quotidienne des messages EDI entrants et sortants",
+                        "Résolution des erreurs de mapping EDI",
+                        "Communication avec les partenaires pour le suivi des flux"
+                    ]
+                },
+                {
+                    "title": "Support SAP utilisateurs",
+                    "tasks": [
+                        "Assistance aux utilisateurs SAP",
+                        "Création et mise à jour de documentations fonctionnelles",
+                        "Création des rôles et gestions des autorisations"
+                    ]
+                },
+                {
+                    "title": "Amélioration continue des processus",
+                    "tasks": [
+                        "Analyse des processus existants pour identifier les axes d'amélioration",
+                        "Développement de scripts pour automatiser certaines tâches récurrentes",
+                        "Participation aux réunions projets avec les équipes métier"
+                    ]
+                }
+            ]
+        }
+    ]
+}

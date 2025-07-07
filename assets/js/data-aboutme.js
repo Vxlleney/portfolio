@@ -1,4 +1,4 @@
-fetch('assets/data/data.json')
+fetch('assets/data/personal.json')
     .then(response => response.json())
     .then(data => {
 
