@@ -1850,4 +1850,33 @@ body {
             }
         }
     }
+
+    .modal-exp-missions{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        align-items: center;
+        min-width: 30%;
+        max-width: 50%;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: $color-card;
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: $shadow;
+        align-items: start;
+    
+        &.active{
+            display: flex;
+        }
+
+        .line {
+            width: 100%;
+            height: .5px;
+            background-color: $color-line;
+        }
+    }
 }

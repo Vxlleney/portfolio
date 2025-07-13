@@ -73,3 +73,21 @@ buttonsDropdown.forEach(button => {
     });
 });
 
+// =================== OPEN & CLOSE MISSIONS ==================== //
+
+const modalMission = document.querySelector('.modal-exp-missions');
+const btnCloseModal = document.querySelector('.close-missions');
+const portfolio = document.querySelector('.portfolio');
+const btnViewMission = document.querySelectorAll('.btn-view-missions')
+
+btnCloseModal.addEventListener('click', () => {
+    portfolio.classList.toggle('blur');
+    modalMission.classList.toggle('active');
+} )
+
+btnViewMission.forEach((button) => {
+    button.addEventListener('click', () => {
+        portfolio.classList.toggle('blur')
+        modalMission.classList.toggle('active')
+    })
+})
