@@ -595,6 +595,15 @@ body .portfolio .sct-exp .container-sct-exp .container-exp .container-content-ex
   align-items: center;
   justify-content: center;
 }
+body .portfolio .sct-exp .container-sct-exp .container-exp .container-content-exp h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #383f5d;
+  text-align: center;
+}
+body .portfolio .sct-exp .container-sct-exp .container-exp .container-content-exp h2.hide {
+  display: none;
+}
 body .portfolio .sct-exp .container-sct-exp .container-exp .container-content-exp .content-exp-data {
   width: 100%;
   display: flex;
@@ -655,7 +664,7 @@ body .portfolio .sct-exp .container-sct-exp .container-exp .container-content-ex
   border-radius: 50%;
   background-color: #415e97;
   position: absolute;
-  top: 50%;
+  top: 40%;
   /* Par défaut, centre l'élément */
   left: 50%;
   /* Centre horizontalement */
@@ -669,7 +678,7 @@ body .portfolio .sct-exp .container-sct-exp .container-exp .container-content-ex
   /* Ajuste pour décaler le cercle sous la ligne */
 }
 body .portfolio .sct-exp .container-sct-exp .container-exp .container-content-exp .content-exp-data .line-data.first::after {
-  top: -20%;
+  top: 20%;
   /* Positionne en bas de la ligne */
   transform: translate(-50%, 50%);
   /* Ajuste pour décaler le cercle sous la ligne */
@@ -731,6 +740,15 @@ body .portfolio .sct-skills .container-sct-skills .container-skills {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+body .portfolio .sct-skills .container-sct-skills .container-skills h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #383f5d;
+  text-align: center;
+}
+body .portfolio .sct-skills .container-sct-skills .container-skills h2.hide {
+  display: none;
 }
 body .portfolio .sct-skills .container-sct-skills .container-skills .title-skills {
   width: 80%;
@@ -860,7 +878,7 @@ body .portfolio .sct-project .container-project {
   margin: 0 auto;
 }
 body .portfolio .sct-project .container-project h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #383f5d;
   text-align: center;
@@ -1590,12 +1608,12 @@ body .portfolio .wrapper span:nth-child(3) {
 }
 body .modal-exp-missions {
   position: absolute;
-  top: 50%;
+  top: 250%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
   align-items: center;
-  min-width: 30%;
+  min-width: 40%;
   max-width: 50%;
   height: auto;
   padding: 20px;
@@ -1605,6 +1623,8 @@ body .modal-exp-missions {
   gap: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   align-items: start;
+  pointer-events: none;
+  overflow: hidden;
 }
 body .modal-exp-missions .line {
   width: 100%;

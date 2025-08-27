@@ -5,8 +5,10 @@ fetch('assets/data/skills.json')
         // ==================== SKILLS ==================== //
         const skills = data.skills;
         const skillsContainer = document.getElementById('skills-section');
+        const noSkill = document.getElementById('no-skill');
+
         if (!skills || skills.length === 0) {
-            skillsContainer.style.display = "none";
+            noSkill.classList.toggle('hide');
         } else {
             let html = "";
 
@@ -23,6 +25,61 @@ fetch('assets/data/skills.json')
 
             });
             skillsContainer.innerHTML = html;
+        }
+    });
+
+
+fetch('assets/data/experiences.json')
+    .then(response => response.json())
+    .then(data => {
+
+        const experiences = data.experiences;
+        const expContainer = document.getElementById('exp-section');
+        const noExp = document.getElementById('no-exp');
+
+        if (!experiences || experiences.length === 0) {
+            noExp.classList.toggle('hide');
+        } else {
+            let html = "";
+            let count = 0;
+
+            experiences.forEach((exp) => {
+                count++
+
+                if (count%2 != 0) {
+                    html += `
+                        <div class="content-exp-data">
+                            <div class="exp-data">
+                                <h2>${exp.company}</h2>
+                                <p>${exp.job}</p>
+                                <span><i class="uil uil-clock"></i>${exp.seniority}</span>
+                                <button class="btn-view-missions">Voir les missions</button>
+                            </div>
+                            <div class="line-data"></div>
+                        <div class="exp-data"></div>
+
+                        </div>
+                    `;
+                } else {
+                    html += `
+                        <div class="content-exp-data">
+                            <div class="exp-data"></div>
+                            <div class="line-data"></div>
+                            <div class="exp-data">
+                                <h2>${exp.company}</h2>
+                                <p>${exp.job}</p>
+                                <span><i class="uil uil-clock"></i>${exp.seniority}</span>
+                                <button class="btn-view-missions">Voir les missions</button>
+                            </div>
+
+                        
+
+                        </div>
+                    `;
+                };
+            });
+
+            expContainer.innerHTML = html;
         }
     });
 
@@ -66,4 +123,4 @@ fetch('assets/data/projects.json')
 
             projectsContainer.innerHTML = html;
         };
-    });
+    })

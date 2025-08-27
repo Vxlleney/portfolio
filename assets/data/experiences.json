@@ -3,7 +3,7 @@
         {
             "company": "Global-Baby",
             "seniority": "2024 - Aujourd'hui",
-            "job": "Alternant Informatique EDI & Support SAP",
+            "job": "Alternant Informatique",
             "missions": [
                 {
                     "title": "Gestion des flux EDI",
@@ -32,32 +32,49 @@
             ]
         },
         {
-            "company": "Global-Baby",
-            "seniority": "2024 - Aujourd'hui",
-            "job": "Alternant Informatique EDI & Support SAP",
+            "company": "Centre Location Services",
+            "seniority": "2022 - 2024",
+            "job": "Employé polyvalent",
             "missions": [
                 {
-                    "title": "Gestion des flux EDI",
+                    "title": "Organisation d'évenements",
                     "tasks": [
-                        "Surveillance quotidienne des messages EDI entrants et sortants",
-                        "Résolution des erreurs de mapping EDI",
-                        "Communication avec les partenaires pour le suivi des flux"
+                        "Gestion et entretient de matériel",
+                        "Livraison de matériels",
+                        "Installation de matériels",
+                        "Relation client"
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "company": "FPRP",
+            "seniority": "2022 - 2024",
+            "job": "Création de site WEB",
+            "missions": [
                 {
-                    "title": "Support SAP utilisateurs",
+                    "title": "Création & Maintenance",
                     "tasks": [
-                        "Assistance aux utilisateurs SAP",
-                        "Création et mise à jour de documentations fonctionnelles",
-                        "Création des rôles et gestions des autorisations"
+                        "Rédaction cahier de charges",
+                        "Réalisation de la maquettes et des élements",
+                        "Réalisations du site",
+                        "Mise en ligne + référencement",
+                        "Maintenance et améliorations continues"
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "company": "Pharmaie St-Éloi",
+            "seniority": "2019",
+            "job": "Stage d'observation",
+            "missions": [
                 {
-                    "title": "Amélioration continue des processus",
+                    "title": "Tâches observés",
                     "tasks": [
-                        "Analyse des processus existants pour identifier les axes d'amélioration",
-                        "Développement de scripts pour automatiser certaines tâches récurrentes",
-                        "Participation aux réunions projets avec les équipes métier"
+                        "Gestion d'une pharmacie",
+                        "Réalisation de traitement pour les foyers médicaux",
+                        "Livraison de médicaments"
                     ]
                 }
             ]

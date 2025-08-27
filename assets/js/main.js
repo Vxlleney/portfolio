@@ -74,7 +74,7 @@ buttonsDropdown.forEach(button => {
 });
 
 // =================== OPEN & CLOSE MISSIONS ==================== //
-
+/*
 const modalMission = document.querySelector('.modal-exp-missions');
 const btnCloseModal = document.querySelector('.close-missions');
 const portfolio = document.querySelector('.portfolio');
@@ -90,4 +90,4 @@ btnViewMission.forEach((button) => {
         portfolio.classList.toggle('blur')
         modalMission.classList.toggle('active')
     })
-})
+})*/

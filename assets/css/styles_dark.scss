@@ -714,6 +714,17 @@ body {
                         align-items: center;
                         justify-content: center;
 
+                        h2 {
+                            font-size: 1.5rem;
+                            font-weight: $w-font-5;
+                            color: $color-text-none;
+                            text-align: center;
+
+                            &.hide {
+                                display: none;
+                            }
+                        }
+
                         .content-exp-data {
                             width: 100%;
                             display: flex;
@@ -782,13 +793,15 @@ body {
                                     border-radius: 50%;
                                     background-color: $color-1;
                                     position: absolute;
-                                    top: 50%;
+                                    top: 40%;
                                     /* Par défaut, centre l'élément */
                                     left: 50%;
                                     /* Centre horizontalement */
                                     transform: translate(-50%, -50%);
                                     /* Centre avec précision */
+
                                 }
+
 
                                 &.last::after {
                                     top: 80%;
@@ -798,7 +811,8 @@ body {
                                 }
 
                                 &.first::after {
-                                    top: -20%;
+                                    
+                                    top: 20%;
                                     /* Positionne en bas de la ligne */
                                     transform: translate(-50%, 50%);
                                     /* Ajuste pour décaler le cercle sous la ligne */
@@ -868,6 +882,17 @@ body {
                     align-items: center;
                     justify-content: center;
                     text-align: center;
+
+                    h2 {
+                        font-size: 1.5rem;
+                        font-weight: $w-font-5;
+                        color: $color-text-none;
+                        text-align: center;
+
+                        &.hide {
+                            display: none;
+                        }
+                    }
 
                     .title-skills {
                         width: 80%;
@@ -1011,7 +1036,7 @@ body {
                 margin: 0 auto;
 
                 h2 {
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     font-weight: $w-font-5;
                     color: $color-text-none;
                     text-align: center;
@@ -1866,12 +1891,12 @@ body {
 
     .modal-exp-missions {
         position: absolute;
-        top: 50%;
+        top: 250%;
         left: 50%;
         transform: translate(-50%, -50%);
         display: none;
         align-items: center;
-        min-width: 30%;
+        min-width: 40%;
         max-width: 50%;
         height: auto;
         padding: 20px;
@@ -1881,6 +1906,8 @@ body {
         gap: 10px;
         box-shadow: $shadow;
         align-items: start;
+        pointer-events: none;
+        overflow: hidden;
 
         .line {
             width: 100%;
