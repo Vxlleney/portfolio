@@ -167,55 +167,5 @@
       "label": "BTS Services Informatiques aux Organisations SLAM",
       "mention": "Diplomes en cours..."
     }
-  ],
-  "projects": [
-    {
-      "name": "Formula 1",
-      "description": "Regroupe toutes les infos relatives à la Formula 1",
-      "link": "",
-      "favorite": true
-    },
-    {
-      "name": "Marmitton",
-      "description": "Regroupe toutes les recettes pour l'entourage (API)",
-      "link": "",
-      "favorite": true
-    },
-    {
-      "name": "Dashboard",
-      "description": "Panel Administrateur qui organise mon travail",
-      "link": "",
-      "favorite": true
-    },
-    {
-      "name": "FPRP",
-      "description": "Site pour un organisme de formations secourisme...",
-      "link": "",
-      "favorite": true
-    },
-    {
-      "name": "SIOTEL",
-      "description": "Gestion de plusieurs hôtels (projet BTS SIO)",
-      "link": "",
-      "favorite": false
-    },
-    {
-      "name": "Nouveau projet",
-      "description": "Cet emplacement est reservé pour un futur projet",
-      "link": "",
-      "favorite": false
-    },
-    {
-      "name": "Nouveau projet",
-      "description": "Cet emplacement est reservé pour un futur projet",
-      "link": "",
-      "favorite": false
-    },
-    {
-      "name": "Nouveau projet",
-      "description": "Cet emplacement est reservé pour un futur projet",
-      "link": "",
-      "favorite": false
-    }
   ]
 }

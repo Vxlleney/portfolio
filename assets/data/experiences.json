@@ -6,12 +6,13 @@
             "job": "Alternant Informatique",
             "missions": 
                 [
-                "Surveillance quotidienne des messages EDI entrants et sortants",
-                "Résolution des erreurs de mapping EDI",
-                "Communication avec les partenaires pour le suivi des flux",
-                "Assistance aux utilisateurs SAP",
+                "EDI : Surveillance quotidienne des messages entrants et sortants",
+                "EDI Résolution des erreurs de mapping",
+                "EDI : Communication avec les partenaires pour le suivi des flux",
+                "SAP : Assistance aux utilisateurs",
+                "SAP : Aide au passage d'une version supérieure",
+                "SAP : Création des rôles et gestions des autorisations",
                 "Création et mise à jour de documentations fonctionnelles",
-                "Création des rôles et gestions des autorisations",
                 "Analyse des processus existants pour identifier les axes d'amélioration",
                 "Développement de scripts pour automatiser certaines tâches récurrentes",
                 "Participation aux réunions projets avec les équipes métier"
