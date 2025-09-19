@@ -1,3 +1,5 @@
+let arrayExp = [];
+
 fetch('assets/data/skills.json')
     .then(response => response.json())
     .then(data => {
@@ -44,6 +46,7 @@ fetch('assets/data/experiences.json')
             let count = 0;
 
             experiences.forEach((exp) => {
+                arrayExp.push(exp.company)
                 count++
 
                 if (count%2 != 0) {
@@ -53,7 +56,7 @@ fetch('assets/data/experiences.json')
                                 <h2>${exp.company}</h2>
                                 <p>${exp.job}</p>
                                 <span><i class="uil uil-clock"></i>${exp.seniority}</span>
-                                <button class="btn-view-missions">Voir les missions</button>
+                                <button class="btn-view-missions" data-company="${exp.company}">Voir les missions</button>
                             </div>
                             <div class="line-data"></div>
                         <div class="exp-data"></div>
@@ -69,7 +72,7 @@ fetch('assets/data/experiences.json')
                                 <h2>${exp.company}</h2>
                                 <p>${exp.job}</p>
                                 <span><i class="uil uil-clock"></i>${exp.seniority}</span>
-                                <button class="btn-view-missions">Voir les missions</button>
+                                <button class="btn-view-missions" data-company="${exp.company}">Voir les missions</button>
                             </div>
 
                         
@@ -80,6 +83,61 @@ fetch('assets/data/experiences.json')
             });
 
             expContainer.innerHTML = html;
+
+            // AFFICHAGE DE L'EXPERIENCE
+            // ==================================================== // 
+            const listInfosExp = document.querySelector('.list-infos-exp');
+            const btnViewExp = document.querySelectorAll('.btn-view-missions');
+            const containerExp = document.querySelector('.container-content-exp');
+            const containerExpInfo = document.querySelector('.container-content-exp-infos');
+            const btnBackExp = document.querySelector('.back-exp');
+            const titleJobExp = document.getElementById('title-job-exp');
+            const titleCompanyExp = document.getElementById('title-company-exp');
+
+            btnViewExp.forEach(btn => {
+                    
+                btn.addEventListener('click', () => {
+                    // Récupère le nom dans le "data--company"
+                    const btnNameExp = btn.dataset.company
+                    const missionsInExp = experiences.find(exp => exp.company === btnNameExp)
+
+                    for (let element of arrayExp) {
+                        if (btnNameExp === element) {
+                            console.log("Entreprise detectée : " + element)
+                        }
+                    }
+
+                    let htmlExp = "";
+                    missionsInExp.missions.forEach((mission) => {
+
+                        htmlExp += 
+                            `
+                            <li>
+                                <i class="uil uil-angle-right"></i>
+                                <p>${mission}</p>
+                            </li>
+                            `
+                    });
+                        
+                    listInfosExp.innerHTML = htmlExp;
+                    containerExp.classList.toggle('hide');
+                    containerExpInfo.classList.toggle('active');
+                    btnBackExp.classList.toggle('active');
+
+                    titleJobExp.innerHTML = missionsInExp.job
+                    titleCompanyExp.innerHTML = btnNameExp
+                })
+            });
+
+            btnBackExp.addEventListener('click', () => {
+                containerExp.classList.toggle('hide');
+                containerExpInfo.classList.toggle('active');
+                btnBackExp.classList.toggle('active');
+                titleJobExp.innerHTML = "Professionnelles"
+                titleCompanyExp.innerHTML = "Mes expériences"
+            })
+
+            // ==================================================== //
         }
     });
 
@@ -124,3 +182,5 @@ fetch('assets/data/projects.json')
             projectsContainer.innerHTML = html;
         };
     })
+
+

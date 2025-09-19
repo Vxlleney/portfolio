@@ -4,47 +4,28 @@
             "company": "Global-Baby",
             "seniority": "2024 - Aujourd'hui",
             "job": "Alternant Informatique",
-            "missions": [
-                {
-                    "title": "Gestion des flux EDI",
-                    "tasks": [
-                        "Surveillance quotidienne des messages EDI entrants et sortants",
-                        "Résolution des erreurs de mapping EDI",
-                        "Communication avec les partenaires pour le suivi des flux"
-                    ]
-                },
-                {
-                    "title": "Support SAP utilisateurs",
-                    "tasks": [
-                        "Assistance aux utilisateurs SAP",
-                        "Création et mise à jour de documentations fonctionnelles",
-                        "Création des rôles et gestions des autorisations"
-                    ]
-                },
-                {
-                    "title": "Amélioration continue des processus",
-                    "tasks": [
-                        "Analyse des processus existants pour identifier les axes d'amélioration",
-                        "Développement de scripts pour automatiser certaines tâches récurrentes",
-                        "Participation aux réunions projets avec les équipes métier"
-                    ]
-                }
-            ]
+            "missions": 
+                [
+                "Surveillance quotidienne des messages EDI entrants et sortants",
+                "Résolution des erreurs de mapping EDI",
+                "Communication avec les partenaires pour le suivi des flux",
+                "Assistance aux utilisateurs SAP",
+                "Création et mise à jour de documentations fonctionnelles",
+                "Création des rôles et gestions des autorisations",
+                "Analyse des processus existants pour identifier les axes d'amélioration",
+                "Développement de scripts pour automatiser certaines tâches récurrentes",
+                "Participation aux réunions projets avec les équipes métier"
+                ]
         },
         {
             "company": "Centre Location Services",
             "seniority": "2022 - 2024",
             "job": "Employé polyvalent",
             "missions": [
-                {
-                    "title": "Organisation d'évenements",
-                    "tasks": [
-                        "Gestion et entretient de matériel",
-                        "Livraison de matériels",
-                        "Installation de matériels",
-                        "Relation client"
-                    ]
-                }
+                "Gestion et entretient de matériel",
+                "Livraison de matériels",
+                "Installation de matériels",
+                "Relation client"
             ]
         },
         {
@@ -52,31 +33,21 @@
             "seniority": "2022 - 2024",
             "job": "Création de site WEB",
             "missions": [
-                {
-                    "title": "Création & Maintenance",
-                    "tasks": [
-                        "Rédaction cahier de charges",
-                        "Réalisation de la maquettes et des élements",
-                        "Réalisations du site",
-                        "Mise en ligne + référencement",
-                        "Maintenance et améliorations continues"
-                    ]
-                }
+                "Rédaction cahier de charges",
+                "Réalisation de la maquettes et des élements",
+                "Réalisations du site",
+                "Mise en ligne + référencement",
+                "Maintenance et améliorations continues"
             ]
         },
         {
-            "company": "Pharmaie St-Éloi",
+            "company": "Pharmacie St-Éloi",
             "seniority": "2019",
             "job": "Stage d'observation",
             "missions": [
-                {
-                    "title": "Tâches observés",
-                    "tasks": [
-                        "Gestion d'une pharmacie",
-                        "Réalisation de traitement pour les foyers médicaux",
-                        "Livraison de médicaments"
-                    ]
-                }
+                "Gestion d'une pharmacie",
+                "Réalisation de traitement pour les foyers médicaux",
+                "Livraison de médicaments"
             ]
         }
     ]
