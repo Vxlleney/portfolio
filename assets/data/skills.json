@@ -21,7 +21,7 @@
         {
             "label": "React",
             "level": "En apprentissage",
-            "percent": 10,
+            "percent": 40,
             "color": "#D2B48C"
         },
         {
@@ -63,7 +63,7 @@
         {
             "label": "Github",
             "level": "Intermédiaire",
-            "percent": 60,
+            "percent": 70,
             "color": "#9370DB"
         },
         {

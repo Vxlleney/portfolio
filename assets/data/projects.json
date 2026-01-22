@@ -1,8 +1,8 @@
 {
     "projects": [
         {
-            "name": "Formula 1",
-            "description": "Regroupe toutes les infos relatives à la Formula 1",
+            "name": "GereTonFrig",
+            "description": "Application gestion stockage alimentaires",
             "link": "",
             "favorite": true
         },
@@ -19,8 +19,8 @@
             "favorite": true
         },
         {
-            "name": "FPRP",
-            "description": "Site pour un organisme de formations secourisme...",
+            "name": "Gestion factures",
+            "description": "Panel de gestion de factures",
             "link": "",
             "favorite": true
         },
