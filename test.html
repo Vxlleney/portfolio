@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stockage Cards</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card h2 {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .type {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .frigo { background-color: #1890ff; }        /* bleu pour frigo */
+  .congelo { background-color: #13c2c2; }     /* turquoise pour congélateur */
+  .placard { background-color: #faad14; }     /* orange pour placard */
+
+  .card p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .alert {
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #ff4d4f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Stockage Central</h2>
+    <span class="type frigo">Frigo</span>
+    <p>Lieu: Paris</p>
+    <span class="alert">3 alertes</span>
+  </div>
+
+  <div class="card">
+    <h2>Stockage Sud</h2>
+    <span class="type congelo">Congélateur</span>
+    <p>Lieu: Marseille</p>
+    <span class="alert">0 alerte</span>
+  </div>
+
+  <div class="card">
+    <h2>Stockage Nord</h2>
+    <span class="type placard">Placard</span>
+    <p>Lieu: Lille</p>
+    <span class="alert">1 alerte</span>
+  </div>
+
+</body>
+</html>

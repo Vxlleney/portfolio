@@ -31,9 +31,14 @@
             "mention": "Mention assez-bien"
         },
         {
-            "years": "2024 - Aujourd'hui",
+            "years": "2024 - 2026",
             "label": "BTS Services Informatiques aux Organisations SLAM",
-            "mention": "Diplomes en cours..."
+            "mention": "Diplomes en cours"
+        },
+        {
+            "years": "2026 - 2029",
+            "label": "ITII - École d'ingénieur informatique",
+            "mention": "..."
         }
     ]
 }

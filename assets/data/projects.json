@@ -19,20 +19,20 @@
             "favorite": true
         },
         {
-            "name": "Gestion factures",
+            "name": "Valen Factures",
             "description": "Panel de gestion de factures",
             "link": "",
             "favorite": true
         },
         {
-            "name": "SIOTEL",
-            "description": "Gestion de plusieurs hôtels (projet BTS SIO)",
+            "name": "Valen Stockage",
+            "description": "Panel de gestion de stock",
             "link": "",
             "favorite": false
         },
         {
-            "name": "Nouveau projet",
-            "description": "Cet emplacement est reservé pour un futur projet",
+            "name": "Valen Budget",
+            "description": "Gérer son budget simplement",
             "link": "",
             "favorite": false
         },
