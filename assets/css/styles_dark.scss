@@ -1,14 +1,14 @@
 // COLORS DARK
 $color-1: #415e97;
-$color-2: #7894cd;
+$color-2: #6682ba;
 $color-3: #dce8ff;
 $color-4: #ffae00;
 $color-5: #db5656;
 $color-6: #a93b3b;
 
-$color-bg-1: #1b1f31;
-$color-bg-2: #161927;
-$color-bg-3: #0b1323;
+$color-bg-1: #151a26;
+$color-bg-2: #0b0e14;
+$color-bg-3: #0b0e14;
 $gradient-sct-bottom: linear-gradient(to top, $color-bg-1, $color-bg-2);
 $gradient-sct-top: linear-gradient(to bottom, $color-bg-1, $color-bg-2);
 $gradient-footer: linear-gradient(to bottom, $color-bg-1, $color-bg-3);
@@ -28,9 +28,9 @@ $color-scrollbar: #273550;
 $color-hover-btn-menu: #ebebeb;
 $color-btn-menu-back: #ebebeb;
 
-$color-card: #161927;
-$color-line: #10121d;
-$color-line-2: #171a29;
+$color-card: #0b0e14;
+$color-line: #0b0e14;
+$color-line-2: #010101;
 $color-line-3: #1b1f31;
 
 $color-green: #57e465;
@@ -551,6 +551,17 @@ body {
                 font-weight: $w-font-4;
                 color: $color-text-g;
                 margin-top: 10px;
+            }
+
+            .img-title-header{
+                width: 200px;
+                height: auto;
+                padding: 20px 0 0 0;
+
+                @media screen and (max-width: 1024px) {
+                    width: 50%;
+                    margin: 0 auto;
+                }
             }
 
             .btn-header {

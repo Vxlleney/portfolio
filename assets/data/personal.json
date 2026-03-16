@@ -6,7 +6,7 @@
         "job": "Alternant BTS SIO SLAM",
         "email": "petit.valentin60140@gmail.com",
         "age": 21,
-        "link-cv": "petitvalentin.fr",
+        "linkcv": "assets/data/cv_petit_valentin.pdf",
         "car": true
     },
     "languages": [

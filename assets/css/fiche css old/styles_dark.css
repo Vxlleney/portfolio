@@ -55,7 +55,6 @@ body {
   background-color: #1b1f31;
   font-family: "Nunito", sans-serif;
   color: #ffffff;
-  /* Show scroll */
 }
 body .gradient-sct-top {
   background: linear-gradient(to bottom, #1b1f31, #161927);
@@ -837,8 +836,6 @@ body .sct-project .container-project .card-project {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  /* Bordures spécifiques */
-  /* Bordure en haut à droite */
 }
 body .sct-project .container-project .card-project:nth-child(1) .line-top-right,
 body .sct-project .container-project .card-project:nth-child(1) .line-bottom-left,
@@ -875,6 +872,9 @@ body .sct-project .container-project .card-project:nth-child(4) .icon {
 }
 body .sct-project .container-project .card-project:nth-child(4) a {
   color: #ffb52d;
+}
+body .sct-project .container-project .card-project {
+  /* Bordures spécifiques */
 }
 body .sct-project .container-project .card-project .line-top-right {
   position: absolute;
@@ -940,6 +940,9 @@ body .sct-project .container-project .card-project .btn-card-project span {
 body .sct-project .container-project .card-project .btn-card-project i {
   font-size: 1.5rem;
   margin: auto 0;
+}
+body .sct-project .container-project .card-project {
+  /* Bordure en haut à droite */
 }
 body .bg-login {
   background: url("/assets/img/bg-login.png");
@@ -1173,6 +1176,9 @@ body .scrollup:hover {
 body .scrollup-icon {
   font-size: 1.5rem;
   color: #414141;
+}
+body {
+  /* Show scroll */
 }
 body .show-scroll {
   bottom: 5rem;

@@ -553,6 +553,17 @@ body {
                 margin-top: 10px;
             }
 
+            .img-title-header{
+                width: 200px;
+                height: auto;
+                padding: 20px 0 0 0;
+
+                @media screen and (max-width: 1024px) {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+            }
+
             .btn-header {
                 display: flex;
                 gap: 10px;

@@ -70,7 +70,7 @@ fetch('assets/data/personal.json')
                     <li>Diplômes :<span>...</span></li>
                 </ul>
 
-                <a href="petitvalentin.fr"><button class="view-cv">
+                <a href="${identity.linkcv}" target="_blank"><button class="view-cv">
                     <i class="uil uil-download-alt"></i>
                     Télécharger CV
                 </button></a>
@@ -90,7 +90,7 @@ fetch('assets/data/personal.json')
                     <li>Diplômes :<span>${identity.countdegrees}</span></li>
                 </ul>
 
-                <a href="petitvalentin.fr"><button class="view-cv">
+                <a href="./${identity.linkcv}" target="_blank"><button class="view-cv">
                     <i class="uil uil-download-alt"></i>
                     Télécharger CV
                 </button></a>

@@ -59,18 +59,17 @@ button {
 }
 
 body {
-  background-color: #1b1f31;
+  background-color: #151a26;
   font-family: "Nunito", sans-serif;
   color: #ffffff;
-  /* Show scroll */
 }
 body .gradient-sct-top {
-  background: linear-gradient(to bottom, #1b1f31, #161927);
+  background: linear-gradient(to bottom, #151a26, #0b0e14);
   height: 150px;
   width: 100%;
 }
 body .gradient-sct-bottom {
-  background: linear-gradient(to top, #1b1f31, #161927);
+  background: linear-gradient(to top, #151a26, #0b0e14);
   height: 150px;
   width: 100%;
 }
@@ -79,7 +78,7 @@ body .nav-menu {
   z-index: 200;
   top: 0;
   right: 0;
-  background-color: #1b1f31;
+  background-color: #151a26;
   width: 100%;
   height: 100%;
   transform: translateX(0);
@@ -100,7 +99,7 @@ body .nav-menu .gradient-nav {
   left: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(to left, #415e97, #7894cd);
+  background: linear-gradient(to left, #415e97, #6682ba);
 }
 body .nav-menu .back-nav-menu {
   font-size: 1.8rem;
@@ -127,7 +126,7 @@ body .nav-menu ul li {
   position: relative;
   width: 100%;
   height: auto;
-  background-color: #161927;
+  background-color: #0b0e14;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px 30px;
@@ -242,7 +241,7 @@ body .nav-menu h2 span {
   color: #415e97;
 }
 body nav {
-  background-color: #1b1f31;
+  background-color: #151a26;
   overflow: hidden;
   width: 100%;
   position: fixed;
@@ -251,7 +250,7 @@ body nav {
 body nav .gradient-nav {
   width: 100%;
   height: 5px;
-  background: linear-gradient(to left, #415e97, #7894cd);
+  background: linear-gradient(to left, #415e97, #6682ba);
 }
 body nav .nav {
   max-width: 1024px;
@@ -260,7 +259,7 @@ body nav .nav {
   margin: 0 auto;
   margin-top: 10px;
   padding: 15px;
-  border-bottom: 1px solid #10121d;
+  border-bottom: 1px solid #0b0e14;
 }
 body nav .nav i {
   font-size: 1.2rem;
@@ -446,6 +445,17 @@ body header .title-header p {
   color: #a4a4a4;
   margin-top: 10px;
 }
+body header .title-header .img-title-header {
+  width: 200px;
+  height: auto;
+  padding: 20px 0 0 0;
+}
+@media screen and (max-width: 1024px) {
+  body header .title-header .img-title-header {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 body header .title-header .btn-header {
   display: flex;
   gap: 10px;
@@ -510,7 +520,7 @@ body header .img-header {
 body .sct-exp {
   width: 100%;
   margin: 0 auto;
-  background-color: #161927;
+  background-color: #0b0e14;
 }
 body .sct-exp .container-sct-exp {
   width: 1400px;
@@ -583,7 +593,7 @@ body .sct-exp .container-sct-exp .container-exp .back-exp.active {
 body .sct-exp .container-sct-exp .container-exp .title-exp {
   width: 80%;
   padding-bottom: 30px;
-  border-bottom: 1px solid #10121d;
+  border-bottom: 1px solid #0b0e14;
 }
 body .sct-exp .container-sct-exp .container-exp .title-exp h1 {
   font-size: 2rem;
@@ -721,7 +731,7 @@ body .sct-exp .container-sct-exp .container-exp .container-content-exp-infos.act
 body .sct-skills {
   width: 100%;
   margin: 0 auto;
-  background-color: #1b1f31;
+  background-color: #151a26;
 }
 body .sct-skills .container-sct-skills {
   width: 1400px;
@@ -779,7 +789,7 @@ body .sct-skills .container-sct-skills .container-skills {
 body .sct-skills .container-sct-skills .container-skills .title-skills {
   width: 80%;
   padding-bottom: 30px;
-  border-bottom: 1px solid #10121d;
+  border-bottom: 1px solid #0b0e14;
 }
 body .sct-skills .container-sct-skills .container-skills .title-skills h1 {
   font-size: 2rem;
@@ -814,7 +824,7 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   width: 45%;
   height: auto;
-  background-color: #161927;
+  background-color: #0b0e14;
 }
 @media screen and (max-width: 520px) {
   body .sct-skills .container-sct-skills .container-skills .content-skills .card-skills {
@@ -880,7 +890,7 @@ body .sct-project .title-sct-project {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 30px;
-  border-bottom: 1px solid #10121d;
+  border-bottom: 1px solid #0b0e14;
 }
 body .sct-project .title-sct-project h1 {
   font-size: 2rem;
@@ -917,14 +927,12 @@ body .sct-project .container-project .card-project {
   width: 300px;
   height: 350px;
   border-radius: 20px;
-  background-color: #161927;
+  background-color: #0b0e14;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  /* Bordures spécifiques */
-  /* Bordure en haut à droite */
 }
 body .sct-project .container-project .card-project:nth-child(1) .line-top-right,
 body .sct-project .container-project .card-project:nth-child(1) .line-bottom-left,
@@ -961,6 +969,9 @@ body .sct-project .container-project .card-project:nth-child(4) .icon {
 }
 body .sct-project .container-project .card-project:nth-child(4) a {
   color: #ffb52d;
+}
+body .sct-project .container-project .card-project {
+  /* Bordures spécifiques */
 }
 body .sct-project .container-project .card-project .line-top-right {
   position: absolute;
@@ -1028,6 +1039,9 @@ body .sct-project .container-project .card-project .btn-card-project i {
   font-size: 1.5rem;
   margin: auto 0;
 }
+body .sct-project .container-project .card-project {
+  /* Bordure en haut à droite */
+}
 body .sct-aboutme {
   width: 1400px;
   padding: 60px 30px;
@@ -1051,7 +1065,7 @@ body .sct-aboutme .title-sct-aboutme {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 30px;
-  border-bottom: 1px solid #10121d;
+  border-bottom: 1px solid #0b0e14;
 }
 body .sct-aboutme .title-sct-aboutme h1 {
   font-size: 2rem;
@@ -1108,7 +1122,7 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  background-color: #161927;
+  background-color: #0b0e14;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 30px 25px;
@@ -1152,6 +1166,11 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .conten
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv {
   cursor: pointer;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv i {
+  font-size: 1.2rem;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1164,9 +1183,6 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .conten
   color: #ffffff;
   transition: 0.3s ease;
   box-shadow: 0px 0px 10px #415e97;
-}
-body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv i {
-  font-size: 1.2rem;
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv:hover {
   transition: 0.3s ease;
@@ -1212,7 +1228,7 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-ab
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  background-color: #161927;
+  background-color: #0b0e14;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 15px 20px;
@@ -1237,7 +1253,7 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-ab
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: #161927;
+  background-color: #0b0e14;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 15px 20px;
@@ -1294,7 +1310,7 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-ab
 body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown .mention {
   font-size: 0.85rem;
   font-weight: 500;
-  color: #7894cd;
+  color: #6682ba;
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .container-buttons-aboutme .button-dropdown .content-dropdown .item-dropdown.img {
   display: flex;
@@ -1326,14 +1342,14 @@ body .sct-aboutme .container-aboutme .biography {
 body .sct-aboutme .container-aboutme .biography h3 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #7894cd;
+  color: #6682ba;
   padding: 10px 0;
 }
 body .sct-aboutme .container-aboutme .biography .line {
   width: 100%;
   height: 1px;
   border-radius: 10px;
-  background-color: #171a29;
+  background-color: #010101;
   margin: 0 auto;
 }
 body .sct-aboutme .container-aboutme .biography p {
@@ -1400,7 +1416,7 @@ body .bg-login .container-login .card-login .form-login .id-login input,
 body .bg-login .container-login .card-login .form-login .password-login input {
   height: 50px;
   width: 250px;
-  background-color: #7894cd;
+  background-color: #6682ba;
   border-radius: 5px 0 0 5px;
   border: 2px solid transparent;
   padding: 20px;
@@ -1416,7 +1432,7 @@ body .bg-login .container-login .card-login .form-login .password-login input::p
 }
 body .bg-login .container-login .card-login .form-login .id-login input:focus,
 body .bg-login .container-login .card-login .form-login .password-login input:focus {
-  outline: #7894cd;
+  outline: #6682ba;
 }
 body .bg-login .container-login .card-login .form-login .id-login span,
 body .bg-login .container-login .card-login .form-login .password-login span {
@@ -1517,7 +1533,7 @@ body .bg-login .container-login .card-login .theme-toggle #checkbox:checked + .b
 body footer {
   width: 100%;
   height: auto;
-  background-color: #0b1323;
+  background-color: #0b0e14;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1575,11 +1591,14 @@ body .scrollup {
   transition: 0.4s;
 }
 body .scrollup:hover {
-  background-color: #7894cd;
+  background-color: #6682ba;
 }
 body .scrollup-icon {
   font-size: 1.5rem;
   color: #414141;
+}
+body {
+  /* Show scroll */
 }
 body .show-scroll {
   bottom: 5rem;
@@ -1588,7 +1607,7 @@ body .wrapper {
   position: fixed;
   inset: 0;
   z-index: 9998;
-  background: #1b1f31;
+  background: #151a26;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1644,7 +1663,7 @@ body .modal-exp-missions {
   height: auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: #161927;
+  background-color: #0b0e14;
   flex-direction: column;
   gap: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -1656,5 +1675,5 @@ body .modal-exp-missions.active {
 body .modal-exp-missions .line {
   width: 100%;
   height: 0.5px;
-  background-color: #10121d;
+  background-color: #0b0e14;
 }/*# sourceMappingURL=styles_dark.css.map */

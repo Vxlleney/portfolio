@@ -62,7 +62,6 @@ body {
   background-color: #f5f5f5;
   font-family: "Nunito", sans-serif;
   color: #414141;
-  /* Show scroll */
 }
 body .gradient-sct-top {
   background: linear-gradient(to bottom, #f5f5f5, #ebf1fc);
@@ -445,6 +444,17 @@ body header .title-header p {
   font-weight: 500;
   color: #606060;
   margin-top: 10px;
+}
+body header .title-header .img-title-header {
+  width: 200px;
+  height: auto;
+  padding: 20px 0 0 0;
+}
+@media screen and (max-width: 1024px) {
+  body header .title-header .img-title-header {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 body header .title-header .btn-header {
   display: flex;
@@ -923,8 +933,6 @@ body .sct-project .container-project .card-project {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  /* Bordures spécifiques */
-  /* Bordure en haut à droite */
 }
 body .sct-project .container-project .card-project:nth-child(1) .line-top-right,
 body .sct-project .container-project .card-project:nth-child(1) .line-bottom-left,
@@ -961,6 +969,9 @@ body .sct-project .container-project .card-project:nth-child(4) .icon {
 }
 body .sct-project .container-project .card-project:nth-child(4) a {
   color: #ffb52d;
+}
+body .sct-project .container-project .card-project {
+  /* Bordures spécifiques */
 }
 body .sct-project .container-project .card-project .line-top-right {
   position: absolute;
@@ -1027,6 +1038,9 @@ body .sct-project .container-project .card-project .btn-card-project span {
 body .sct-project .container-project .card-project .btn-card-project i {
   font-size: 1.5rem;
   margin: auto 0;
+}
+body .sct-project .container-project .card-project {
+  /* Bordure en haut à droite */
 }
 body .sct-aboutme {
   width: 1400px;
@@ -1152,6 +1166,11 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .conten
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv {
   cursor: pointer;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv i {
+  font-size: 1.2rem;
+}
+body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1164,9 +1183,6 @@ body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .conten
   color: #ffffff;
   transition: 0.3s ease;
   box-shadow: 0px 0px 10px #415e97;
-}
-body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv i {
-  font-size: 1.2rem;
 }
 body .sct-aboutme .container-aboutme .content-left-aboutme .card-aboutme .content-infos-aboutme .view-cv:hover {
   transition: 0.3s ease;
@@ -1580,6 +1596,9 @@ body .scrollup:hover {
 body .scrollup-icon {
   font-size: 1.5rem;
   color: #ffffff;
+}
+body {
+  /* Show scroll */
 }
 body .show-scroll {
   bottom: 5rem;
