@@ -54,6 +54,34 @@ fetch('assets/data/personal.json')
             degreesContainer.innerHTML = html;
         };
 
+
+        // ================= certifications ================= //
+        const certifications = data.certifications;
+        const certificationsContainer = document.getElementById('certifications-section');
+
+        if (!certifications || certifications.length === 0) {
+            certificationsContainer.style.display = "none";
+        } else {
+            let html = "";
+
+            certifications.forEach((certification, index) => {
+                if (index > 0) {
+                    html += `<div class="line-dropdown"></div>`;
+                }
+
+                html += `
+                    <div class="item-dropdown">
+                        <span class="years">${certification.years}</span>
+                        <h5>${certification.label}</h5>
+                        <span class="mention">${certification.mention}</span>
+                    </div>
+                `;
+            });
+
+            certificationsContainer.innerHTML = html;
+        };
+        
+
         // ================= IDENTITY ================= //
         const identity = data.identity;
         const identityContainer = document.getElementById('identity-section');
@@ -70,10 +98,10 @@ fetch('assets/data/personal.json')
                     <li>Diplômes :<span>...</span></li>
                 </ul>
 
-                <a href="${identity.linkcv}" target="_blank"><button class="view-cv">
+                <a href="${identity.linkcv}" target="_blank" class="view-cv">
                     <i class="uil uil-download-alt"></i>
                     Télécharger CV
-                </button></a>
+                </a>
                 `;
 
             identityContainer.innerHTML += html;

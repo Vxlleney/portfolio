@@ -731,7 +731,7 @@ body .sct-exp .container-sct-exp .container-exp .container-content-exp-infos.act
 body .sct-skills {
   width: 100%;
   margin: 0 auto;
-  background-color: #f5f5f5;
+  background-color: #ebf1fc;
 }
 body .sct-skills .container-sct-skills {
   width: 1400px;
@@ -867,6 +867,30 @@ body .sct-skills .container-sct-skills .container-skills .content-skills .card-s
   height: 100%;
   border-radius: 10px;
 }
+body .sct-skills .container-sct-skills .container-skills .btn-table-skill {
+  cursor: pointer;
+}
+body .sct-skills .container-sct-skills .container-skills .btn-table-skill i {
+  font-size: 1.2rem;
+}
+body .sct-skills .container-sct-skills .container-skills .btn-table-skill {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #415e97;
+  color: #ffffff;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px #415e97;
+}
+body .sct-skills .container-sct-skills .container-skills .btn-table-skill:hover {
+  transition: 0.3s ease;
+  filter: brightness(90%);
+}
 body .sct-project {
   width: 1400px;
   padding: 60px 30px;
@@ -925,50 +949,55 @@ body .sct-project .container-project h2.hide {
 body .sct-project .container-project .card-project {
   position: relative;
   width: 300px;
-  height: 350px;
+  height: 410px;
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 40px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 10px;
 }
 body .sct-project .container-project .card-project:nth-child(1) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(1) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(1) .icon {
+body .sct-project .container-project .card-project:nth-child(1) .line-bottom-left {
   border-color: #875fed;
-  background-color: #875fed;
+}
+body .sct-project .container-project .card-project:nth-child(1) .icon {
+  background-color: #875fed !important;
 }
 body .sct-project .container-project .card-project:nth-child(1) a {
-  color: #875fed;
+  color: #875fed !important;
 }
 body .sct-project .container-project .card-project:nth-child(2) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(2) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(2) .icon {
+body .sct-project .container-project .card-project:nth-child(2) .line-bottom-left {
   border-color: #ed5fb9;
-  background-color: #ed5fb9;
+}
+body .sct-project .container-project .card-project:nth-child(2) .icon {
+  background-color: #ed5fb9 !important;
 }
 body .sct-project .container-project .card-project:nth-child(2) a {
-  color: #ed5fb9;
+  color: #ed5fb9 !important;
 }
 body .sct-project .container-project .card-project:nth-child(3) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(3) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(3) .icon {
+body .sct-project .container-project .card-project:nth-child(3) .line-bottom-left {
   border-color: #37be44;
-  background-color: #37be44;
+}
+body .sct-project .container-project .card-project:nth-child(3) .icon {
+  background-color: #37be44 !important;
 }
 body .sct-project .container-project .card-project:nth-child(3) a {
-  color: #37be44;
+  color: #37be44 !important;
 }
 body .sct-project .container-project .card-project:nth-child(4) .line-top-right,
-body .sct-project .container-project .card-project:nth-child(4) .line-bottom-left,
-body .sct-project .container-project .card-project:nth-child(4) .icon {
+body .sct-project .container-project .card-project:nth-child(4) .line-bottom-left {
   border-color: #ffb52d;
-  background-color: #ffb52d;
+}
+body .sct-project .container-project .card-project:nth-child(4) .icon {
+  background-color: #ffb52d !important;
 }
 body .sct-project .container-project .card-project:nth-child(4) a {
-  color: #ffb52d;
+  color: #ffb52d !important;
 }
 body .sct-project .container-project .card-project {
   /* Bordures spécifiques */
@@ -995,7 +1024,26 @@ body .sct-project .container-project .card-project .line-bottom-left {
   border-left: 4px solid #415e97;
   border-radius: 0 0 0 20px;
 }
-body .sct-project .container-project .card-project .icon {
+body .sct-project .container-project .card-project .top-card-project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+body .sct-project .container-project .card-project .top-card-project .tools-projects {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+body .sct-project .container-project .card-project .top-card-project .tools-projects li {
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  color: #606060;
+  font-weight: 600;
+}
+body .sct-project .container-project .card-project .top-card-project .icon {
   width: 60px;
   height: 60px;
   border-radius: 12px;
@@ -1006,19 +1054,31 @@ body .sct-project .container-project .card-project .icon {
   align-items: center;
   font-size: 1.5rem;
 }
-body .sct-project .container-project .card-project h2 {
+body .sct-project .container-project .card-project .bottom-card-project {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  justify-content: space-between;
+}
+body .sct-project .container-project .card-project .bottom-card-project .title-card-project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .sct-project .container-project .card-project .bottom-card-project .title-card-project h2 {
   font-size: 1.5rem;
   font-weight: 700;
   color: #414141;
   text-align: left;
 }
-body .sct-project .container-project .card-project p {
+body .sct-project .container-project .card-project .bottom-card-project .title-card-project p {
   font-size: 1rem;
   font-weight: 500;
   color: #606060;
-  margin-top: -30px;
+  margin-top: -10px;
 }
-body .sct-project .container-project .card-project .btn-card-project {
+body .sct-project .container-project .card-project .bottom-card-project .btn-card-project {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -1026,16 +1086,16 @@ body .sct-project .container-project .card-project .btn-card-project {
   transition: 0.3s ease;
   cursor: pointer;
 }
-body .sct-project .container-project .card-project .btn-card-project:hover {
+body .sct-project .container-project .card-project .bottom-card-project .btn-card-project:hover {
   transition: 0.3s ease;
   text-decoration: underline;
 }
-body .sct-project .container-project .card-project .btn-card-project span {
+body .sct-project .container-project .card-project .bottom-card-project .btn-card-project span {
   font-size: 0.9rem;
   margin: auto 0;
   font-weight: 600;
 }
-body .sct-project .container-project .card-project .btn-card-project i {
+body .sct-project .container-project .card-project .bottom-card-project .btn-card-project i {
   font-size: 1.5rem;
   margin: auto 0;
 }

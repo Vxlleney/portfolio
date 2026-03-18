@@ -12,7 +12,7 @@
     "languages": [
         {
             "language": "Français",
-            "level": "Langue maternelle"
+            "level": "Certification Voltaire 500"
         },
         {
             "language": "Anglais",
@@ -39,6 +39,19 @@
             "years": "2026 - 2029",
             "label": "ITII - École d'ingénieur informatique",
             "mention": "..."
+        }
+    ],
+
+    "certifications": [
+        {
+            "years": "2026",
+            "label": "Certification Voltaire",
+            "mention": "Orthographe Professionnel (+500)"
+        },
+        {
+            "years": "2022 - 2024",
+            "label": "Sauveteur Secouriste du Travail",
+            "mention": "Formation initiale"
         }
     ]
 }

@@ -12,24 +12,36 @@ fetch('assets/data/projects.json')
         } else {
             let html = "";
 
+            
+
             projects.forEach((project) => {
-
+                const toolsHtml = project.tools ? project.tools.map(tool => `<li>${tool}</li>`).join('') : '<li>Non renseigné</li>';
                 html += `
-                    <div class="card-project">
-                        <div class="line-top-right"></div>
-                        <div class="line-bottom-left"></div>
-                        <div class="icon">
-                            <i class="uil uil-brackets-curly"></i>
+                     <div class="card-project">
+                            <div class="line-top-right"></div>
+                            <div class="line-bottom-left"></div>
+                            <div class="top-card-project">
+                                <div class="icon">
+                                    <i class="uil uil-brackets-curly"></i>
+                                </div>
+
+                                <ul class="tools-projects">
+                                    ${toolsHtml}
+                                </ul>
+                            </div>
+
+                            <div class="bottom-card-project">
+                                <div class="title-card-project">
+                                    <h2>${project.name}</h2>
+                                    <p>${project.description}</p>
+                                </div>
+
+                                <a href="${project.link}" class="btn-card-project">
+                                    <span>Accéder au projet</span>
+                                    <i class="uil uil-angle-right"></i>
+                                </a>
+                            </div>
                         </div>
-
-                        <h2>${project.name}</h2>
-                        <p>${project.description}</p>
-
-                        <a href="${project.link}" class="btn-card-project">
-                            <span>Accéder au projet</span>
-                            <i class="uil uil-angle-right"></i>
-                        </a>
-                    </div>
                 `;
             });
 

@@ -1,12 +1,6 @@
 {
     "skills": [
         {
-            "label": "HTML SCSS",
-            "level": "Avancé",
-            "percent": 90,
-            "color": "#ffb52d"
-        },
-        {
             "label": "Javascript",
             "level": "Intermédiaire",
             "percent": 50,
@@ -14,7 +8,7 @@
         },
         {
             "label": "Node JS",
-            "level": "Débutant",
+            "level": "En apprentissage",
             "percent": 40,
             "color": "#87644a"
         },
@@ -34,7 +28,7 @@
             "label": "Kotlin",
             "level": "Intermédiaire",
             "percent": 50,
-            "color": "#DB7093"
+            "color": "#6a91ff"
         },
         {
             "label": "MySQL",
@@ -51,14 +45,8 @@
         {
             "label": "Photoshop",
             "level": "Internédiaire",
-            "percent": 60,
+            "percent": 40,
             "color": "#3b58a8"
-        },
-        {
-            "label": "Figma",
-            "level": "Avancé",
-            "percent": 60,
-            "color": "#6a91ff"
         },
         {
             "label": "Github",
@@ -69,7 +57,7 @@
         {
             "label": "RTE - TradXPress",
             "level": "Intermédiaire",
-            "percent": 60,
+            "percent": 80,
             "color": "#ffa500"
         }
     ]

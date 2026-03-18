@@ -4,25 +4,29 @@
             "name": "GereTonFrig",
             "description": "Application gestion stockage alimentaires",
             "link": "",
-            "favorite": true
+            "favorite": true,
+            "tools": ["React", "NodeJS", "API Rest", "Docker", "GitHub", "Travai d'équipe"]
         },
         {
             "name": "Marmitton",
             "description": "Regroupe toutes les recettes pour l'entourage (API)",
             "link": "",
-            "favorite": true
+            "favorite": true,
+            "tools": ["HTML", "Javascript", "Scss", "NodeJS", "API", "GitHub"]
         },
         {
-            "name": "Dashboard",
-            "description": "Panel Administrateur qui organise mon travail",
-            "link": "",
-            "favorite": true
+            "name": "FPRP",
+            "description": "Organisme de formation secourisme et incendie",
+            "link": "https://fprpv2.vercel.app/",
+            "favorite": true,
+            "tools": ["HTML", "Scss", "Javascript"]
         },
         {
             "name": "Valen Factures",
             "description": "Panel de gestion de factures",
             "link": "",
-            "favorite": true
+            "favorite": true,
+            "tools": ["Scss", "React", "NodeJS", "API Rest", "Docker", "GitHub"]
         },
         {
             "name": "Valen Stockage",
@@ -33,18 +37,6 @@
         {
             "name": "Valen Budget",
             "description": "Gérer son budget simplement",
-            "link": "",
-            "favorite": false
-        },
-        {
-            "name": "Nouveau projet",
-            "description": "Cet emplacement est reservé pour un futur projet",
-            "link": "",
-            "favorite": false
-        },
-        {
-            "name": "Nouveau projet",
-            "description": "Cet emplacement est reservé pour un futur projet",
             "link": "",
             "favorite": false
         }
