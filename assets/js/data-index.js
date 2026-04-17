@@ -18,9 +18,9 @@ fetch('assets/data/skills.json')
                 html += `
                     <div class="card-skills">
                         <h3>${skill.label}</h3>
-                        <p>${skill.level}<span class="percent">${skill.percent}%</span></p></p>
+                        <p>${skill.level}<span class="percent"></span></p></p>
                         <div class="bar-skills">
-                            <span style="width: ${skill.percent}%; background-color: ${skill.color};"></span>
+                            <span style="width: 100%; background-color: ${skill.color};"></span>
                         </div>
                     </div>
                 `;
