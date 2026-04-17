@@ -545,6 +545,7 @@ body {
                 font-size: 4.5rem;
                 font-weight: $w-font-6;
                 color: $color-text-n;
+                //text-transform: lowercase;
             }
 
             p {
@@ -881,7 +882,6 @@ body {
     .sct-skills {
         width: 100%;
         margin: 0 auto;
-        background-color: $color-bg-2;
 
         .container-sct-skills {
             width: 1400px;
@@ -1055,7 +1055,7 @@ body {
     }
 
     .sct-project {
-        width: 1400px;
+
         padding: 60px 30px;
         margin: 0 auto;
         display: flex;
@@ -1678,6 +1678,174 @@ body {
             }
         }
 
+    }
+
+    .sct-company {
+        padding: 60px 30px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;
+
+        &.padding-page {
+            padding: 150px 30px 150px 30px;
+        }
+
+        @media screen and (max-width: 1400px) {
+            width: auto;
+        }
+
+        .title-sct-company {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 1px solid $color-line;
+
+            h1 {
+                font-size: 2rem;
+                font-weight: $w-font-6;
+                color: $color-text-n;
+            }
+
+            span {
+                font-size: 1rem;
+                font-weight: $w-font-6;
+                color: $color-1;
+                margin-bottom: -5px;
+                text-transform: uppercase;
+            }
+        }
+
+        .container-company {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            max-width: 80%;
+            width: 100%;
+            margin: 0 auto;
+
+            .left-container-company {
+                width: 30%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                overflow: hidden;
+                border: 1px solid $color-line;
+                border-radius: 10px;
+                padding: 100px 30px;
+
+                img {
+                    width: 60%;
+                    height: auto;
+                }
+
+
+            }
+
+            .right-container-company {
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .biography-company {
+
+                    h3 {
+                        font-size: 1.2rem;
+                        font-weight: $w-font-6;
+                        color: $color-2;
+                        padding: 5px 0;
+                    }
+
+
+                    p {
+                        font-size: 1rem;
+                        font-weight: $w-font-4;
+                        color: $color-text-n;
+                        padding: 10px 0 20px 0;
+                        text-align: justify;
+
+                        i {
+                            font-size: 1.2rem;
+                            color: $color-1;
+                            padding: 0 5px;
+                        }
+                    }
+                }
+
+                .biography-cards-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    h3 {
+                        font-size: 1.2rem;
+                        font-weight: $w-font-6;
+                        color: $color-2;
+                    }
+
+                    .biography-cards-company {
+                        display: flex;
+                        flex-wrap: wrap;
+                        height: auto;
+                        align-items: center;
+                        gap: 20px;
+                        
+                        @media screen and (max-width: 1524px) {
+                            flex-wrap: nowrap;
+                            flex-direction: column;
+                        }
+
+                        .card-company {
+                            width: calc(50% - 10px);
+                            background-color: $color-card;
+                            border-radius: 6px;
+                            box-shadow: $shadow;
+                            padding: 20px;
+                            display: flex;
+                            gap: 15px;
+                            align-content: center;
+
+                            @media screen and (max-width: 1524px) {
+                                width: 100%;
+                            }
+
+                            .line{
+                                width: 4px;
+                                border-radius: 4px;
+                                background-color: $color-1;
+                            }
+
+                            .data-card-company{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                height: 100%;
+
+                                h6{
+                                    font-size: .9rem;
+                                    font-weight: $w-font-6;
+                                    color: $color-text-n;
+                                }
+
+                                li{
+                                    font-size: .85rem;
+                                    font-weight: $w-font-5;
+                                    color: $color-text-g;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .bg-login {

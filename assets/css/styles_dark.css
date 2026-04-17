@@ -731,7 +731,6 @@ body .sct-exp .container-sct-exp .container-exp .container-content-exp-infos.act
 body .sct-skills {
   width: 100%;
   margin: 0 auto;
-  background-color: #121620;
 }
 body .sct-skills .container-sct-skills {
   width: 1400px;
@@ -892,7 +891,6 @@ body .sct-skills .container-sct-skills .container-skills .btn-table-skill:hover 
   filter: brightness(90%);
 }
 body .sct-project {
-  width: 1400px;
   padding: 60px 30px;
   margin: 0 auto;
   display: flex;
@@ -1423,6 +1421,151 @@ body .sct-aboutme .container-aboutme .biography p i {
   font-size: 1.2rem;
   color: #415e97;
   padding: 0 5px;
+}
+body .sct-company {
+  padding: 60px 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 100%;
+}
+body .sct-company.padding-page {
+  padding: 150px 30px 150px 30px;
+}
+@media screen and (max-width: 1400px) {
+  body .sct-company {
+    width: auto;
+  }
+}
+body .sct-company .title-sct-company {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #0b0e14;
+}
+body .sct-company .title-sct-company h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+body .sct-company .title-sct-company span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #415e97;
+  margin-bottom: -5px;
+  text-transform: uppercase;
+}
+body .sct-company .container-company {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+body .sct-company .container-company .left-container-company {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  overflow: hidden;
+  border: 1px solid #0b0e14;
+  border-radius: 10px;
+  padding: 100px 30px;
+}
+body .sct-company .container-company .left-container-company img {
+  width: 60%;
+  height: auto;
+}
+body .sct-company .container-company .right-container-company {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .sct-company .container-company .right-container-company .biography-company h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #6682ba;
+  padding: 5px 0;
+}
+body .sct-company .container-company .right-container-company .biography-company p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 0 20px 0;
+  text-align: justify;
+}
+body .sct-company .container-company .right-container-company .biography-company p i {
+  font-size: 1.2rem;
+  color: #415e97;
+  padding: 0 5px;
+}
+body .sct-company .container-company .right-container-company .biography-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .sct-company .container-company .right-container-company .biography-cards-container h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #6682ba;
+}
+body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 1524px) {
+  body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company {
+  width: calc(50% - 10px);
+  background-color: #0b0e14;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  align-content: center;
+}
+@media screen and (max-width: 1524px) {
+  body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company {
+    width: 100%;
+  }
+}
+body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company .line {
+  width: 4px;
+  border-radius: 4px;
+  background-color: #415e97;
+}
+body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company .data-card-company {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+}
+body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company .data-card-company h6 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company .data-card-company li {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #a4a4a4;
 }
 body .bg-login {
   background: url("/assets/img/bg-login.png");

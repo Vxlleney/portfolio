@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "GereTonFrig",
-            "description": "Application gestion stockage alimentaires",
+            "description": "Projet BTS : Application gestion stockage alimentaires",
             "link": "",
             "status": "Non hebergé",
             "favorite": true,
@@ -38,6 +38,22 @@
             "status": "En développement",
             "favorite": false,
             "tools": ["React", "Scss", "NodeJS", "API Rest", "Docker", "GitHub"]
+        },
+        {
+            "name": "Migration SAP",
+            "description": "Participation à la migration de version vers ECC6 EHP8",
+            "link": "",
+            "status": "En entreprise",
+            "favorite": false,
+            "tools": ["SAP", "Office 365", "Cadrage", "Tests unitaires"]
+        },
+        {
+            "name": "EDI Trade Xpress",
+            "description": "Ajout de nouveau partenaires + améliorations continues",
+            "link": "",
+            "status": "En entreprise",
+            "favorite": false,
+            "tools": ["Generix Trade'Xpress", "Langage rte", "GitHub", "Linux"]
         }
     ]
 }
