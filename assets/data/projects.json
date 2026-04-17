@@ -4,13 +4,15 @@
             "name": "GereTonFrig",
             "description": "Application gestion stockage alimentaires",
             "link": "",
+            "status": "Non hebergé",
             "favorite": true,
             "tools": ["React", "NodeJS", "API Rest", "Docker", "GitHub", "Travai d'équipe"]
         },
         {
             "name": "Marmitton",
-            "description": "Regroupe toutes les recettes pour l'entourage (API)",
+            "description": "Apprentissage API : Regrouper toutes les recettes de cuisine",
             "link": "",
+            "status": "Non hebergé",
             "favorite": true,
             "tools": ["HTML", "Javascript", "Scss", "NodeJS", "API", "GitHub"]
         },
@@ -22,23 +24,20 @@
             "tools": ["HTML", "Scss", "Javascript"]
         },
         {
-            "name": "Valen Factures",
-            "description": "Panel de gestion de factures",
-            "link": "",
-            "favorite": true,
-            "tools": ["Scss", "React", "NodeJS", "API Rest", "Docker", "GitHub"]
-        },
-        {
-            "name": "Valen Stockage",
-            "description": "Panel de gestion de stock",
-            "link": "",
-            "favorite": false
-        },
-        {
             "name": "Valen Budget",
             "description": "Gérer son budget simplement",
             "link": "",
-            "favorite": false
+            "status": "En développement",
+            "favorite": true,
+            "tools": ["React", "Scss", "NodeJS", "API Rest", "Docker", "GitHub"]
+        },
+        {
+            "name": "Valen Factures",
+            "description": "Panel de gestion de factures",
+            "link": "",
+            "status": "En développement",
+            "favorite": false,
+            "tools": ["React", "Scss", "NodeJS", "API Rest", "Docker", "GitHub"]
         }
     ]
 }

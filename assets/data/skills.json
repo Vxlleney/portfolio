@@ -3,44 +3,44 @@
         {
             "label": "Javascript",
             "level": "Intermédiaire",
-            "percent": 50,
+            "percent": 65,
             "color": "#ffe51f"
         },
         {
-            "label": "Node JS",
-            "level": "En apprentissage",
-            "percent": 40,
+            "label": "Node JS (API Rest)",
+            "level": "Intermédiaire",
+            "percent": 50,
             "color": "#87644a"
         },
         {
             "label": "React",
             "level": "En apprentissage",
-            "percent": 40,
+            "percent": 50,
             "color": "#D2B48C"
         },
         {
-            "label": "Java",
+            "label": "Java + API Spring Boot",
             "level": "Intermédiaire",
-            "percent": 50,
+            "percent": 60,
             "color": "#FF69B4"
         },
         {
             "label": "Kotlin",
             "level": "Intermédiaire",
             "percent": 50,
-            "color": "#6a91ff"
+            "color": "#e24444"
         },
         {
-            "label": "MySQL",
+            "label": "MySQL, MariaDB, PL SQL",
             "level": "Avancé",
             "percent": 70,
             "color": "#37be44"
         },
         {
-            "label": "Python",
+            "label": "Docker",
             "level": "Intermédiaire",
-            "percent": 60,
-            "color": "#e24444"
+            "percent": 40,
+            "color": "#6a91ff"
         },
         {
             "label": "Photoshop",

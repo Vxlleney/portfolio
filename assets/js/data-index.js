@@ -162,6 +162,20 @@ fetch('assets/data/projects.json')
 
                     const toolsHtml = project.tools ? project.tools.map(tool => `<li>${tool}</li>`).join('') : '<li>Non renseigné</li>';
 
+                     const linkHtml = project.link
+                    ?   `
+                        <a href="${project.link}" target="_blank" class="btn-card-project">
+                            <span>Accéder au projet</span>
+                            <i class="uil uil-angle-right"></i>
+                        </a>
+                        `
+                    : `
+                        <a class="btn-card-project">
+                            <span>${project.status}</span>
+                        </a>
+                    
+                        `;
+
                     html += `
                         <div class="card-project">
                             <div class="line-top-right"></div>
@@ -182,10 +196,7 @@ fetch('assets/data/projects.json')
                                     <p>${project.description}</p>
                                 </div>
 
-                                <a href="${project.link}" class="btn-card-project">
-                                    <span>Accéder au projet</span>
-                                    <i class="uil uil-angle-right"></i>
-                                </a>
+                                ${linkHtml}
                             </div>
                         </div>
                         `;
