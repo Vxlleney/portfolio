@@ -1696,6 +1696,10 @@ body {
             width: auto;
         }
 
+        @media screen and (max-width: 768px) {
+            gap: 40px;
+        }
+
         .title-sct-company {
             width: 80%;
             display: flex;
@@ -1731,7 +1735,7 @@ body {
             margin: 0 auto;
 
             @media screen and (max-width: 1124px) {
-                flex-direction: column-reverse; 
+                flex-direction: column-reverse;
             }
 
             @media screen and (max-width: 768px) {
@@ -1778,7 +1782,7 @@ body {
                 gap: 20px;
 
                 @media screen and (max-width: 1124px) {
-                        width: 100%;  
+                    width: 100%;
                 }
 
                 .biography-company {

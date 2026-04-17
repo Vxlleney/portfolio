@@ -1438,6 +1438,11 @@ body .sct-company.padding-page {
     width: auto;
   }
 }
+@media screen and (max-width: 768px) {
+  body .sct-company {
+    gap: 40px;
+  }
+}
 body .sct-company .title-sct-company {
   width: 80%;
   display: flex;
@@ -1463,14 +1468,26 @@ body .sct-company .container-company {
   display: flex;
   gap: 40px;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  height: 100%;
   max-width: 80%;
   width: 100%;
   margin: 0 auto;
 }
+@media screen and (max-width: 1124px) {
+  body .sct-company .container-company {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .sct-company .container-company {
+    max-width: 100%;
+  }
+}
 body .sct-company .container-company .left-container-company {
   width: 30%;
   height: 100%;
+  margin-bottom: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1480,15 +1497,34 @@ body .sct-company .container-company .left-container-company {
   border-radius: 10px;
   padding: 100px 30px;
 }
+@media screen and (max-width: 1124px) {
+  body .sct-company .container-company .left-container-company {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+}
 body .sct-company .container-company .left-container-company img {
   width: 60%;
   height: auto;
+}
+@media screen and (max-width: 1124px) {
+  body .sct-company .container-company .left-container-company img {
+    width: 40%;
+  }
 }
 body .sct-company .container-company .right-container-company {
   width: 70%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+@media screen and (max-width: 1124px) {
+  body .sct-company .container-company .right-container-company {
+    width: 100%;
+  }
 }
 body .sct-company .container-company .right-container-company .biography-company h3 {
   font-size: 1.2rem;
@@ -1543,7 +1579,14 @@ body .sct-company .container-company .right-container-company .biography-cards-c
 }
 @media screen and (max-width: 1524px) {
   body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company {
+    width: 80%;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1524px) {
+  body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company {
     width: 100%;
+    margin-right: 0;
   }
 }
 body .sct-company .container-company .right-container-company .biography-cards-container .biography-cards-company .card-company .line {

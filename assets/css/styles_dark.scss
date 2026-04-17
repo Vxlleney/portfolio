@@ -1696,6 +1696,10 @@ body {
             width: auto;
         }
 
+        @media screen and (max-width: 768px) {
+            gap: 40px;
+        }
+
         .title-sct-company {
             width: 80%;
             display: flex;
@@ -1724,14 +1728,24 @@ body {
             display: flex;
             gap: 40px;
             justify-content: center;
-            align-items: center;
+            align-items: start;
+            height: 100%;
             max-width: 80%;
             width: 100%;
             margin: 0 auto;
 
+            @media screen and (max-width: 1124px) {
+                flex-direction: column-reverse; 
+            }
+
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+            }
+
             .left-container-company {
                 width: 30%;
                 height: 100%;
+                margin-bottom: auto;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -1741,9 +1755,21 @@ body {
                 border-radius: 10px;
                 padding: 100px 30px;
 
+                @media screen and (max-width: 1124px) {
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 30px;
+                }
+
                 img {
                     width: 60%;
                     height: auto;
+
+                    @media screen and (max-width: 1124px) {
+                        width: 40%;
+                    }
                 }
 
 
@@ -1754,6 +1780,10 @@ body {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
+
+                @media screen and (max-width: 1124px) {
+                        width: 100%;  
+                }
 
                 .biography-company {
 
@@ -1797,7 +1827,7 @@ body {
                         height: auto;
                         align-items: center;
                         gap: 20px;
-                        
+
                         @media screen and (max-width: 1524px) {
                             flex-wrap: nowrap;
                             flex-direction: column;
@@ -1814,28 +1844,34 @@ body {
                             align-content: center;
 
                             @media screen and (max-width: 1524px) {
-                                width: 100%;
+                                width: 80%;
+                                margin-right: auto;
                             }
 
-                            .line{
+                            @media screen and (max-width: 1524px) {
+                                width: 100%;
+                                margin-right: 0;
+                            }
+
+                            .line {
                                 width: 4px;
                                 border-radius: 4px;
                                 background-color: $color-1;
                             }
 
-                            .data-card-company{
+                            .data-card-company {
                                 display: flex;
                                 flex-direction: column;
                                 gap: 5px;
                                 height: 100%;
 
-                                h6{
+                                h6 {
                                     font-size: .9rem;
                                     font-weight: $w-font-6;
                                     color: $color-text-n;
                                 }
 
-                                li{
+                                li {
                                     font-size: .85rem;
                                     font-weight: $w-font-5;
                                     color: $color-text-g;

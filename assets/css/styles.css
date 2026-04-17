@@ -1438,6 +1438,11 @@ body .sct-company.padding-page {
     width: auto;
   }
 }
+@media screen and (max-width: 768px) {
+  body .sct-company {
+    gap: 40px;
+  }
+}
 body .sct-company .title-sct-company {
   width: 80%;
   display: flex;
