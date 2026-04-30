@@ -26,7 +26,7 @@
         {
             "name": "Valen Budget",
             "description": "Gérer son budget simplement",
-            "link": "",
+            "link": "http://localhost:5175/",
             "status": "En développement",
             "favorite": true,
             "tools": ["React", "Scss", "NodeJS", "API Rest", "Docker", "GitHub"]
