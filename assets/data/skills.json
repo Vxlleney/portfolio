@@ -2,61 +2,61 @@
     "skills": [
         {
             "label": "Javascript",
-            "level": "Intermédiaire",
+            "level": "Langage de programmation",
             "percent": 65,
             "color": "#ffe51f"
         },
         {
             "label": "Node JS (API Rest)",
-            "level": "Intermédiaire",
+            "level": "Langage de programmation",
             "percent": 50,
             "color": "#87644a"
         },
         {
             "label": "React",
-            "level": "En apprentissage",
+            "level": "Langage de programmation",
             "percent": 50,
             "color": "#D2B48C"
         },
         {
             "label": "Java + API Spring Boot",
-            "level": "Intermédiaire",
+            "level": "Langage de programmation",
             "percent": 60,
             "color": "#FF69B4"
         },
         {
-            "label": "Kotlin",
-            "level": "Intermédiaire",
-            "percent": 50,
-            "color": "#e24444"
-        },
-        {
             "label": "MySQL, MariaDB, PL SQL",
-            "level": "Avancé",
+            "level": "Infrastructure & Données",
             "percent": 70,
             "color": "#37be44"
         },
         {
             "label": "Docker",
-            "level": "Intermédiaire",
+            "level": "Infrastructure & Données",
             "percent": 40,
             "color": "#6a91ff"
         },
         {
-            "label": "Photoshop",
-            "level": "Internédiaire",
-            "percent": 40,
-            "color": "#3b58a8"
-        },
-        {
             "label": "Github",
-            "level": "Intermédiaire",
+            "level": "Infrastructure & Données",
             "percent": 70,
             "color": "#9370DB"
         },
         {
+            "label": "Kotlin",
+            "level": "Design & Spécialités",
+            "percent": 50,
+            "color": "#e24444"
+        },
+        {
+            "label": "Photoshop",
+            "level": "Design & Spécialités",
+            "percent": 40,
+            "color": "#3b58a8"
+        },
+        {
             "label": "RTE - TradXPress",
-            "level": "Intermédiaire",
+            "level": "Design & Spécialités",
             "percent": 80,
             "color": "#ffa500"
         }
