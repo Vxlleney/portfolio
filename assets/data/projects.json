@@ -3,7 +3,7 @@
         {
             "name": "GereTonFrig",
             "description": "Projet BTS : Application gestion stockage alimentaires",
-            "link": "",
+            "link": "http://localhost:5173/",
             "status": "Non hebergé",
             "favorite": true,
             "tools": ["React", "NodeJS", "API Rest", "Docker", "GitHub", "Travai d'équipe"]
@@ -13,7 +13,7 @@
             "description": "Apprentissage API : Regrouper toutes les recettes de cuisine",
             "link": "",
             "status": "Non hebergé",
-            "favorite": true,
+            "favorite": false,
             "tools": ["HTML", "Javascript", "Scss", "NodeJS", "API", "GitHub"]
         },
         {
@@ -52,7 +52,7 @@
             "description": "Ajout de nouveau partenaires + améliorations continues",
             "link": "",
             "status": "En entreprise",
-            "favorite": false,
+            "favorite": true,
             "tools": ["Generix Trade'Xpress", "Langage rte", "GitHub", "Linux"]
         }
     ]
